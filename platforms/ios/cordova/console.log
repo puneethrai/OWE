@@ -1,0 +1,616 @@
+2014-09-08 11:00:16.746 OWE[2654:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 11:00:16.748 OWE[2654:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 11:00:16.752 OWE[2654:90b] Unlimited access to network resources
+2014-09-08 11:00:16.753 OWE[2654:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 11:00:16.847 OWE[2654:90b] Resetting plugins due to page load.
+2014-09-08 11:00:17.360 OWE[2654:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 11:01:44.750 OWE[2763:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 11:01:44.751 OWE[2763:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 11:01:44.755 OWE[2763:90b] Unlimited access to network resources
+2014-09-08 11:01:44.757 OWE[2763:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 11:01:44.792 OWE[2763:90b] Resetting plugins due to page load.
+2014-09-08 11:01:45.220 OWE[2763:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 11:02:22.725 OWE[2763:4103] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-09-08 11:02:38.884 OWE[2763:90b] Resetting plugins due to page load.
+2014-09-08 11:02:39.140 OWE[2763:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 11:03:13.963 OWE[2872:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 11:03:13.965 OWE[2872:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 11:03:13.969 OWE[2872:90b] Unlimited access to network resources
+2014-09-08 11:03:13.970 OWE[2872:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 11:03:14.004 OWE[2872:90b] Resetting plugins due to page load.
+2014-09-08 11:03:14.450 OWE[2872:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 11:03:38.587 OWE[2976:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 11:03:38.588 OWE[2976:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 11:03:38.592 OWE[2976:90b] Unlimited access to network resources
+2014-09-08 11:03:38.594 OWE[2976:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 11:03:38.653 OWE[2976:90b] Resetting plugins due to page load.
+2014-09-08 11:03:39.116 OWE[2976:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 11:07:17.671 OWE[3122:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 11:07:17.673 OWE[3122:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 11:07:17.677 OWE[3122:90b] Unlimited access to network resources
+2014-09-08 11:07:17.687 OWE[3122:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 11:07:17.753 OWE[3122:90b] Resetting plugins due to page load.
+2014-09-08 11:07:18.238 OWE[3122:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 11:08:08.356 OWE[3233:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 11:08:08.358 OWE[3233:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 11:08:08.362 OWE[3233:90b] Unlimited access to network resources
+2014-09-08 11:08:08.363 OWE[3233:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 11:08:08.398 OWE[3233:90b] Resetting plugins due to page load.
+2014-09-08 11:08:08.835 OWE[3233:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 11:08:39.126 OWE[3233:90b] Resetting plugins due to page load.
+2014-09-08 11:08:39.252 OWE[3233:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 11:11:09.198 OWE[3343:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 11:11:09.199 OWE[3343:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 11:11:09.203 OWE[3343:90b] Unlimited access to network resources
+2014-09-08 11:11:09.205 OWE[3343:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 11:11:09.241 OWE[3343:90b] Resetting plugins due to page load.
+2014-09-08 11:11:09.872 OWE[3343:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 11:11:37.645 OWE[3343:4203] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-09-08 11:11:52.067 OWE[3343:90b] Resetting plugins due to page load.
+2014-09-08 11:11:52.464 OWE[3343:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 11:14:34.746 OWE[3452:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 11:14:34.747 OWE[3452:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 11:14:34.751 OWE[3452:90b] Unlimited access to network resources
+2014-09-08 11:14:34.753 OWE[3452:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 11:14:34.789 OWE[3452:90b] Resetting plugins due to page load.
+2014-09-08 11:14:35.428 OWE[3452:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 11:14:45.821 OWE[3452:4103] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-09-08 11:20:50.329 OWE[3563:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 11:20:50.330 OWE[3563:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 11:20:50.334 OWE[3563:90b] Unlimited access to network resources
+2014-09-08 11:20:50.335 OWE[3563:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 11:20:50.370 OWE[3563:90b] Resetting plugins due to page load.
+2014-09-08 11:20:50.919 OWE[3563:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 11:21:26.412 OWE[3668:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 11:21:26.413 OWE[3668:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 11:21:26.418 OWE[3668:90b] Unlimited access to network resources
+2014-09-08 11:21:26.419 OWE[3668:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 11:21:26.482 OWE[3668:90b] Resetting plugins due to page load.
+2014-09-08 11:21:27.001 OWE[3668:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 11:43:47.826 OWE[3782:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 11:43:47.827 OWE[3782:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 11:43:47.831 OWE[3782:90b] Unlimited access to network resources
+2014-09-08 11:43:47.832 OWE[3782:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 11:43:47.868 OWE[3782:90b] Resetting plugins due to page load.
+2014-09-08 11:43:48.512 OWE[3782:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 12:17:48.580 OWE[3922:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 12:17:48.581 OWE[3922:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 12:17:48.585 OWE[3922:90b] Unlimited access to network resources
+2014-09-08 12:17:48.587 OWE[3922:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 12:17:48.675 OWE[3922:90b] Resetting plugins due to page load.
+2014-09-08 12:17:49.460 OWE[3922:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 12:22:59.546 OWE[4036:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 12:22:59.547 OWE[4036:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 12:22:59.551 OWE[4036:90b] Unlimited access to network resources
+2014-09-08 12:22:59.553 OWE[4036:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 12:22:59.589 OWE[4036:90b] Resetting plugins due to page load.
+2014-09-08 12:23:05.616 OWE[4036:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 12:24:16.404 OWE[4146:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 12:24:16.406 OWE[4146:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 12:24:16.410 OWE[4146:90b] Unlimited access to network resources
+2014-09-08 12:24:16.412 OWE[4146:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 12:24:16.473 OWE[4146:90b] Resetting plugins due to page load.
+2014-09-08 12:24:37.303 OWE[4146:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 12:25:05.558 OWE[4254:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 12:25:05.559 OWE[4254:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 12:25:05.563 OWE[4254:90b] Unlimited access to network resources
+2014-09-08 12:25:05.565 OWE[4254:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 12:25:05.599 OWE[4254:90b] Resetting plugins due to page load.
+2014-09-08 13:06:49.553 OWE[4405:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 13:06:49.563 OWE[4405:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 13:06:49.567 OWE[4405:90b] Unlimited access to network resources
+2014-09-08 13:06:49.569 OWE[4405:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 13:06:49.603 OWE[4405:90b] Resetting plugins due to page load.
+2014-09-08 13:06:50.320 OWE[4405:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 13:07:25.096 OWE[4520:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 13:07:25.097 OWE[4520:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 13:07:25.101 OWE[4520:90b] Unlimited access to network resources
+2014-09-08 13:07:25.102 OWE[4520:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 13:07:25.137 OWE[4520:90b] Resetting plugins due to page load.
+2014-09-08 13:07:25.864 OWE[4520:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 20:11:27.567 OWE[23138:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 20:11:27.584 OWE[23138:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 20:11:27.588 OWE[23138:90b] Unlimited access to network resources
+2014-09-08 20:11:27.593 OWE[23138:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 20:11:27.731 OWE[23138:90b] Resetting plugins due to page load.
+2014-09-08 20:11:28.244 OWE[23138:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 20:12:03.232 OWE[23248:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 20:12:03.233 OWE[23248:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 20:12:03.237 OWE[23248:90b] Unlimited access to network resources
+2014-09-08 20:12:03.239 OWE[23248:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 20:12:03.299 OWE[23248:90b] Resetting plugins due to page load.
+2014-09-08 20:12:03.780 OWE[23248:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 20:12:17.910 OWE[23248:90b] Resetting plugins due to page load.
+2014-09-08 20:12:18.015 OWE[23248:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 20:13:24.383 OWE[23359:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 20:13:24.384 OWE[23359:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 20:13:24.388 OWE[23359:90b] Unlimited access to network resources
+2014-09-08 20:13:24.389 OWE[23359:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 20:13:24.426 OWE[23359:90b] Resetting plugins due to page load.
+2014-09-08 20:13:24.521 OWE[23359:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 20:13:41.222 OWE[23359:90b] Resetting plugins due to page load.
+2014-09-08 20:13:41.686 OWE[23359:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 20:14:28.782 OWE[23464:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 20:14:28.783 OWE[23464:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 20:14:28.787 OWE[23464:90b] Unlimited access to network resources
+2014-09-08 20:14:28.789 OWE[23464:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 20:14:28.844 OWE[23464:90b] Resetting plugins due to page load.
+2014-09-08 20:14:29.268 OWE[23464:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 20:14:40.102 OWE[23464:90b] Resetting plugins due to page load.
+2014-09-08 20:14:40.253 OWE[23464:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 20:15:01.865 OWE[23572:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 20:15:01.867 OWE[23572:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 20:15:01.871 OWE[23572:90b] Unlimited access to network resources
+2014-09-08 20:15:01.872 OWE[23572:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 20:15:01.930 OWE[23572:90b] Resetting plugins due to page load.
+2014-09-08 20:15:02.340 OWE[23572:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 20:15:09.242 OWE[23572:90b] Resetting plugins due to page load.
+2014-09-08 20:15:09.352 OWE[23572:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 20:15:40.125 OWE[23677:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 20:15:40.126 OWE[23677:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 20:15:40.130 OWE[23677:90b] Unlimited access to network resources
+2014-09-08 20:15:40.132 OWE[23677:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 20:15:40.190 OWE[23677:90b] Resetting plugins due to page load.
+2014-09-08 20:15:40.266 OWE[23677:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 20:15:47.417 OWE[23677:90b] Resetting plugins due to page load.
+2014-09-08 20:15:47.859 OWE[23677:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 20:16:18.316 OWE[23781:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 20:16:18.318 OWE[23781:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 20:16:18.322 OWE[23781:90b] Unlimited access to network resources
+2014-09-08 20:16:18.323 OWE[23781:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 20:16:18.384 OWE[23781:90b] Resetting plugins due to page load.
+2014-09-08 20:16:18.831 OWE[23781:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 20:16:25.898 OWE[23781:90b] Resetting plugins due to page load.
+2014-09-08 20:16:26.036 OWE[23781:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 20:17:10.315 OWE[23885:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 20:17:10.317 OWE[23885:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 20:17:10.321 OWE[23885:90b] Unlimited access to network resources
+2014-09-08 20:17:10.323 OWE[23885:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 20:17:10.383 OWE[23885:90b] Resetting plugins due to page load.
+2014-09-08 20:17:10.886 OWE[23885:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 20:17:22.138 OWE[23885:90b] Resetting plugins due to page load.
+2014-09-08 20:17:22.258 OWE[23885:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html#transaction
+2014-09-08 20:19:01.932 OWE[23995:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 20:19:01.933 OWE[23995:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 20:19:01.937 OWE[23995:90b] Unlimited access to network resources
+2014-09-08 20:19:01.939 OWE[23995:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 20:19:01.975 OWE[23995:90b] Resetting plugins due to page load.
+2014-09-08 20:19:02.415 OWE[23995:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 20:22:53.555 OWE[24107:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 20:22:53.557 OWE[24107:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 20:22:53.561 OWE[24107:90b] Unlimited access to network resources
+2014-09-08 20:22:53.563 OWE[24107:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 20:22:53.620 OWE[24107:90b] Resetting plugins due to page load.
+2014-09-08 20:22:54.128 OWE[24107:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 20:23:44.568 OWE[24212:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 20:23:44.570 OWE[24212:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 20:23:44.574 OWE[24212:90b] Unlimited access to network resources
+2014-09-08 20:23:44.575 OWE[24212:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 20:23:44.610 OWE[24212:90b] Resetting plugins due to page load.
+2014-09-08 20:23:45.171 OWE[24212:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 20:30:12.372 OWE[24326:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 20:30:12.374 OWE[24326:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 20:30:12.378 OWE[24326:90b] Unlimited access to network resources
+2014-09-08 20:30:12.379 OWE[24326:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 20:30:12.438 OWE[24326:90b] Resetting plugins due to page load.
+2014-09-08 20:30:12.992 OWE[24326:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 20:51:32.981 OWE[24449:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 20:51:32.982 OWE[24449:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 20:51:32.986 OWE[24449:90b] Unlimited access to network resources
+2014-09-08 20:51:32.988 OWE[24449:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 20:51:33.048 OWE[24449:90b] Resetting plugins due to page load.
+2014-09-08 20:51:33.614 OWE[24449:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 20:51:48.583 OWE[24449:90b] Resetting plugins due to page load.
+2014-09-08 20:51:53.958 OWE[24449:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html#transaction
+2014-09-08 20:52:34.049 OWE[24560:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 20:52:34.050 OWE[24560:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 20:52:34.054 OWE[24560:90b] Unlimited access to network resources
+2014-09-08 20:52:34.056 OWE[24560:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 20:52:34.091 OWE[24560:90b] Resetting plugins due to page load.
+2014-09-08 20:52:34.527 OWE[24560:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 20:52:53.290 OWE[24560:90b] Resetting plugins due to page load.
+2014-09-08 20:53:00.480 OWE[24560:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html#transaction
+2014-09-08 20:53:05.142 OWE[24560:90b] Resetting plugins due to page load.
+2014-09-08 20:53:09.687 OWE[24560:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html#transaction
+2014-09-08 20:55:55.393 OWE[24673:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 20:55:55.394 OWE[24673:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 20:55:55.398 OWE[24673:90b] Unlimited access to network resources
+2014-09-08 20:55:55.400 OWE[24673:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 20:55:55.436 OWE[24673:90b] Resetting plugins due to page load.
+2014-09-08 20:55:55.880 OWE[24673:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 21:00:05.110 OWE[24787:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 21:00:05.111 OWE[24787:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 21:00:05.115 OWE[24787:90b] Unlimited access to network resources
+2014-09-08 21:00:05.117 OWE[24787:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 21:00:05.158 OWE[24787:90b] Resetting plugins due to page load.
+2014-09-08 21:00:05.717 OWE[24787:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 21:03:24.917 OWE[24903:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 21:03:24.918 OWE[24903:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 21:03:24.922 OWE[24903:90b] Unlimited access to network resources
+2014-09-08 21:03:24.924 OWE[24903:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 21:03:24.959 OWE[24903:90b] Resetting plugins due to page load.
+2014-09-08 21:03:25.367 OWE[24903:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 21:11:35.988 OWE[25027:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 21:11:35.989 OWE[25027:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 21:11:35.993 OWE[25027:90b] Unlimited access to network resources
+2014-09-08 21:11:35.995 OWE[25027:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 21:11:36.035 OWE[25027:90b] Resetting plugins due to page load.
+2014-09-08 21:11:36.630 OWE[25027:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 21:12:24.993 OWE[25140:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 21:12:24.995 OWE[25140:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 21:12:24.999 OWE[25140:90b] Unlimited access to network resources
+2014-09-08 21:12:25.000 OWE[25140:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 21:12:25.036 OWE[25140:90b] Resetting plugins due to page load.
+2014-09-08 21:12:25.507 OWE[25140:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 22:15:29.491 OWE[25270:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 22:15:29.492 OWE[25270:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 22:15:29.496 OWE[25270:90b] Unlimited access to network resources
+2014-09-08 22:15:29.497 OWE[25270:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 22:15:29.535 OWE[25270:90b] Resetting plugins due to page load.
+2014-09-08 22:15:30.100 OWE[25270:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 22:17:19.865 OWE[25383:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 22:17:19.866 OWE[25383:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 22:17:19.870 OWE[25383:90b] Unlimited access to network resources
+2014-09-08 22:17:19.872 OWE[25383:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 22:17:19.909 OWE[25383:90b] Resetting plugins due to page load.
+2014-09-08 22:17:20.448 OWE[25383:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 22:22:02.314 OWE[25495:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 22:22:02.315 OWE[25495:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 22:22:02.319 OWE[25495:90b] Unlimited access to network resources
+2014-09-08 22:22:02.321 OWE[25495:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 22:22:02.362 OWE[25495:90b] Resetting plugins due to page load.
+2014-09-08 22:22:02.811 OWE[25495:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 22:35:03.487 OWE[25614:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 22:35:03.488 OWE[25614:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 22:35:03.492 OWE[25614:90b] Unlimited access to network resources
+2014-09-08 22:35:03.493 OWE[25614:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 22:35:03.530 OWE[25614:90b] Resetting plugins due to page load.
+2014-09-08 22:35:04.064 OWE[25614:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 22:36:15.259 OWE[25726:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 22:36:15.261 OWE[25726:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 22:36:15.264 OWE[25726:90b] Unlimited access to network resources
+2014-09-08 22:36:15.266 OWE[25726:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 22:36:15.302 OWE[25726:90b] Resetting plugins due to page load.
+2014-09-08 22:36:15.791 OWE[25726:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 22:37:55.568 OWE[25837:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 22:37:55.570 OWE[25837:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 22:37:55.574 OWE[25837:90b] Unlimited access to network resources
+2014-09-08 22:37:55.576 OWE[25837:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 22:37:55.662 OWE[25837:90b] Resetting plugins due to page load.
+2014-09-08 22:37:56.147 OWE[25837:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 22:43:36.976 OWE[25946:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 22:43:36.977 OWE[25946:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 22:43:36.981 OWE[25946:90b] Unlimited access to network resources
+2014-09-08 22:43:36.983 OWE[25946:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 22:43:37.017 OWE[25946:90b] Resetting plugins due to page load.
+2014-09-08 22:43:37.587 OWE[25946:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 22:43:52.245 OWE[26054:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 22:43:52.246 OWE[26054:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 22:43:52.250 OWE[26054:90b] Unlimited access to network resources
+2014-09-08 22:43:52.252 OWE[26054:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 22:43:52.288 OWE[26054:90b] Resetting plugins due to page load.
+2014-09-08 22:43:52.790 OWE[26054:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 22:45:23.780 OWE[26163:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 22:45:23.782 OWE[26163:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 22:45:23.786 OWE[26163:90b] Unlimited access to network resources
+2014-09-08 22:45:23.787 OWE[26163:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 22:45:23.823 OWE[26163:90b] Resetting plugins due to page load.
+2014-09-08 22:45:24.263 OWE[26163:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 22:49:26.364 OWE[26273:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 22:49:26.365 OWE[26273:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 22:49:26.369 OWE[26273:90b] Unlimited access to network resources
+2014-09-08 22:49:26.371 OWE[26273:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 22:49:26.406 OWE[26273:90b] Resetting plugins due to page load.
+2014-09-08 22:49:26.885 OWE[26273:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-08 22:51:23.002 OWE[26382:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-08 22:51:23.003 OWE[26382:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-08 22:51:23.008 OWE[26382:90b] Unlimited access to network resources
+2014-09-08 22:51:23.009 OWE[26382:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-08 22:51:23.071 OWE[26382:90b] Resetting plugins due to page load.
+2014-09-08 22:51:23.549 OWE[26382:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-09 12:02:51.032 OWE[26759:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-09 12:02:51.033 OWE[26759:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-09 12:02:51.037 OWE[26759:90b] Unlimited access to network resources
+2014-09-09 12:02:51.039 OWE[26759:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-09 12:02:51.075 OWE[26759:90b] Resetting plugins due to page load.
+2014-09-09 12:02:51.703 OWE[26759:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-09 12:05:54.088 OWE[26768:90b] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-09 12:05:54.090 OWE[26768:90b] Multi-tasking -> Device: YES, App: YES
+2014-09-09 12:05:54.094 OWE[26768:90b] Unlimited access to network resources
+2014-09-09 12:05:54.095 OWE[26768:90b] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-09 12:05:54.131 OWE[26768:90b] Resetting plugins due to page load.
+2014-09-09 12:05:54.972 OWE[26768:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
