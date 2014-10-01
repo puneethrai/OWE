@@ -14,10 +14,13 @@ var DataLayer = {
         },
         //Database Queries List
         QUERIES : {
+            //Transaction
             //Create
             createTableQueryTransaction : "CREATE TABLE IF NOT EXISTS OTRANSACTION( id INTEGER PRIMARY KEY AUTOINCREMENT, userid INTEGER, amount DOUBLE, type DEFAULT "+"'+'"+")",
             //Insert
             insertIntoTransaction : 'INSERT INTO OTRANSACTION(id,userid,amount,type) VALUES (NULL,"',
+            //update
+            updateTransaction: "UPDATE OTRANSACTION SET userid='--U--',amount='--A--',type='--T--' WHERE id=?",
             //Drop
             dropTransactionTable : " DROP TABLE IF EXISTS OTRANSACTION",
             //get
@@ -26,7 +29,22 @@ var DataLayer = {
             searchContact : "SELECT * FROM OTRANSACTION WHERE name LIKE '--S--%' OR mobileNo LIKE '--S--%' OR workNo LIKE '--S--%' OR homeNo LIKE '--S--%' OR avataruri LIKE '--S--%' OR email LIKE '--S--%' OR homeAdd LIKE '--S--%' OR workAdd LIKE '--S--%'  ORDER BY jid",
             searchExistingID : "SELECT * FROM OTRANSACTION WHERE id = ?",
             //Delete
-            deleteTransaction : "DELETE FROM OTRANSACTION WHERE id = ?"
+            deleteTransaction : "DELETE FROM OTRANSACTION WHERE id = ?",
+            //Friends
+            createFriendQueryTransaction : "CREATE TABLE IF NOT EXISTS FRIENDS( id INTEGER PRIMARY KEY AUTOINCREMENT, name INTEGER)",
+            //Insert
+            insertIntoFriend : 'INSERT INTO FRIENDS(id,name) VALUES (NULL,"',
+            //update
+            updateFriend: "UPDATE FRIENDS SET name='--N--' WHERE id=?",
+            //Drop
+            dropFriendTable : " DROP TABLE IF EXISTS FRIENDS",
+            //get
+            selectAllFromFriend : 'SELECT * FROM FRIENDS ORDER BY name',
+            //Search
+            searchFriend : "SELECT * FROM FRIENDS WHERE name LIKE '--S--%' OR mobileNo LIKE '--S--%' OR workNo LIKE '--S--%' OR homeNo LIKE '--S--%' OR avataruri LIKE '--S--%' OR email LIKE '--S--%' OR homeAdd LIKE '--S--%' OR workAdd LIKE '--S--%'  ORDER BY jid",
+            searchExistingFriendID : "SELECT * FROM FRIENDS WHERE id = ?",
+            //Delete
+            deleteFriend : "DELETE FROM FRIENDS WHERE id = ?"
         },
         initialize: function(searchFor){
 
@@ -38,7 +56,11 @@ var DataLayer = {
                 if (self._db) {
                     //self._executeSql(self.QUERIES.dropTransactionTable, null, function(){
                         self._executeSql(self.QUERIES.createTableQueryTransaction,null,function(){
-                            defer.resolve();
+                            self._executeSql(self.QUERIES.createFriendQueryTransaction,null,function(){
+                                defer.resolve();
+                            }, function(){
+                                defer.reject();
+                            });
                         }, function(){
                             defer.reject();
                         });
@@ -69,19 +91,33 @@ var DataLayer = {
         addTransaction : function(transactionData){
 
             var self = this,
-                defer = $.Deferred();
+                defer = $.Deferred(),
+                sqlScript = "",
+                id = [];
             if (self._db) {
-                self._executeSql(self.QUERIES.insertIntoTransaction
+                if(transactionData.id) {
+                    sqlScript = self.QUERIES.updateTransaction.replace("--U--", transactionData.userid)
+                    .replace("--A--", transactionData.amount)
+                    .replace("--T--", transactionData.type)
+                    id = [transactionData.id];
+                } else {
+                    sqlScript = self.QUERIES.insertIntoTransaction
                     + transactionData.userid
                     + '","'
                     + transactionData.amount
                     + '","'
                     + transactionData.type
-                    +'")',null,function(tx, transactions){
-                    if(transactions.rows.length > 0) {
+                    +'")';
+                }
+                self._executeSql(sqlScript,id,function(tx, transactions){
+                    /*jslint unparam:true*/
+                    if (transactions.rows.length > 0) {
                         defer.resolve(transactions.rows.item(0));
-                    } else {
+                    } else if(id.length === 0){
+                        //New entry
                         defer.resolve(transactions.insertId);
+                    } else {
+                        defer.resolve(transactionData);
                     }
                 }, function(){
                     defer.reject();
@@ -99,6 +135,82 @@ var DataLayer = {
                 defer.reject();
             });
             return defer.promise();
+        },
+        getAllFriends : function(){
+
+            var self = this,
+                defer = $.Deferred();
+            if (self._db) {
+                self._executeSql(self.QUERIES.selectAllFromFriend,null,function(tx, friends){
+                    var tempModels = [],
+                        friendsIndex = 0;
+                    for(var friendsIndex = 0 ; friendsIndex< friends.rows.length ; friendsIndex++){
+                            defer.notify(friends.rows.item(friendsIndex));
+                            tempModels.push(friends.rows.item(friendsIndex));
+                        }
+                    defer.resolve(tempModels);
+                }, function(){
+                    defer.reject();
+                });
+            }
+            return defer.promise();
+        },
+        addFriend : function(friendData){
+
+            var self = this,
+                defer = $.Deferred(),
+                sqlScript = "",
+                id = [];
+            if (self._db) {
+                if(friendData.id) {
+                    sqlScript = self.QUERIES.updateFriend.replace("--N--", friendData.name)
+                    id = [friendData.id];
+                } else {
+                    sqlScript = self.QUERIES.insertIntoFriend
+                    + friendData.name
+                    +'")';
+                }
+                self._executeSql(sqlScript,id,function(tx, friends){
+                    /*jslint unparam:true*/
+                    if (friends.rows.length > 0) {
+                        defer.resolve(friends.rows.item(0));
+                    } else if(id.length === 0){
+                        //New entry
+                        defer.resolve(friends.insertId);
+                    } else {
+                        defer.resolve(friends);
+                    }
+                }, function(){
+                    defer.reject();
+                });
+            }
+            return defer.promise();
+        },
+        removeFriend: function(id) {
+
+            var self = this,
+                defer = $.Deferred();
+            self._executeSql(self.QUERIES.deleteFriend,[id],function(tx,friends){
+                defer.resolve();
+            }, function(){
+                defer.reject();
+            });
+            return defer.promise();
+        },
+        getFriendByID: function (id) {
+            var self = this,
+                defer = $.Deferred();
+            self._executeSql(self.QUERIES.searchExistingFriendID,[id],function(tx,friends){
+                if (friends.rows.length > 0) {
+                    defer.resolve(friends.rows.item(0));
+                } else {
+                    defer.reject();
+                }
+            }, function(){
+                defer.reject();
+            });
+            return defer.promise();
+
         },
         _executeSql: function (SQL, params, successCallback, errorCallback, options) {
             var self = this;

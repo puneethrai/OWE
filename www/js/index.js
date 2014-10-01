@@ -17,6 +17,7 @@
  * under the License.
  */
 var app = {
+    accessList : "12",
     // Application Constructor
     initialize: function() {
         this.bindEvents();
@@ -34,9 +35,6 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         //load the transcation template
-        if(!Backbone.History.started){
-            Backbone.history.start();
-        }
         DataLayer.initialize();
         templates.load({
             names: ['Transaction','Transactions'],
@@ -45,10 +43,7 @@ var app = {
             moduleName : 'transaction'
         }, function () {
             window.TR = new TransactionRouter();
-            Backbone.history.navigate("transaction",{
-                trigger: true,
-                replace:true
-            })
+            app.startHistory("1");
         });
         //load the friend template
         templates.load({
@@ -57,9 +52,32 @@ var app = {
             templatePath: 'templates',
             moduleName : 'friend'
         }, function () {
-            new FriendRouter();
+            window.FR = new FriendRouter();
+            app.startHistory("2");
         });
     },
+    startHistory: function(id){
+        app.accessList = app.accessList.replace(id,"");
+        if(app.accessList === ""){
+            if(!Backbone.History.started){
+                Backbone.history.start();
+            }
+            Backbone.history.navigate("transaction",{
+                trigger: true,
+                replace:true
+            });
+        }
+    },
+    scrollDown: function(scrollToValue, scrollwindow){
+        if ($.fn.animate) {
+            // Or you can animate the scrolling:Performance might get affected
+            $(scrollwindow||"body").animate({
+                scrollTop: scrollToValue
+            });
+        } else {
+            $(scrollwindow||"body").scrollTop(scrollToValue);
+        }
+    }
 };
 
 app.initialize();

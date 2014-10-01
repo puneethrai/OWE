@@ -10,9 +10,17 @@ var TransactionRouter = Backbone.Router.extend({
         transaction: "onTransaction"
     },
     onTransaction : function onTransaction (argument) {
-        new ViewTransactions({
-            parentDiv: "Dynamic",
-            collection: this.TransactionCollection
-        }).render();
+        if(window.FR && FR.FV){
+            FR.FV.$el.addClass("hide");
+        }
+        if(!this.TV) {
+            this.TV = new ViewTransactions({
+                parentDiv: "Dynamic",
+                collection: this.TransactionCollection,
+                friendCollection: window.FR.FriendCollection
+            }).render();
+        } else {
+            this.TV.$el.removeClass("hide");
+        }
     }
 });

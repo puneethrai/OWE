@@ -12,7 +12,7 @@ var TransactionModel = Backbone.Model.extend({
     defaults : function defaults () {
         return {
             amount: 0,
-            name  : 0,
+            userid  : 0,
             type  : this.TYPE.DEBT
         };
     },
@@ -22,12 +22,14 @@ var TransactionModel = Backbone.Model.extend({
         }
     },
     save : function save () {
-        var self = this;
+        var self = this,
+            defer = $.Deferred();
         DataLayer.addTransaction(this.toJSON()).done(function(transaction){
             self.id = transaction.id || transaction;
         }).fail(function(){
             self.destroy();
         });
+        return defer.promise();
     },
     destroy: function () {
         var self = this;

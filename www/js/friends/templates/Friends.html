@@ -1,1 +1,17 @@
-<p>Total Friends</p>
+<div class="container" >
+	<div class="jumbotron" style="top:55px;position:fixed;background-color:rgb(255,255,255);z-index:1;padding-top: 0;left: 0;">
+		<p class="text-center">Total Friends:<span class="dummyFriendsCount"><%=friends%></span></p>
+		<div class="row">
+		    <div class="col-xs-12">
+		        <div class="input-group">
+		            <input type="text" class="form-control dummyFriendName" placeholder="Friends Name" required="">
+		            <span class="input-group-btn">
+		                <button class="btn btn-default dummyAddFriends" type="button"><i class="glyphicon glyphicon-plus"></i></button>
+		            </span>
+		        </div><!-- /input-group -->
+		    </div><!-- /.col-xs-12 -->
+		</div><!-- /.row -->
+	</div>
+	<div class="dummyFriendList" style="padding-top:140px; overflow-y: auto;-webkit-overflow-scrolling:touch;">
+	</div>
+</div>

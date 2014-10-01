@@ -614,3 +614,645 @@ https://developer.apple.com/icloud/documentation/data-storage/
 
 2014-09-09 12:05:54.131 OWE[26768:90b] Resetting plugins due to page load.
 2014-09-09 12:05:54.972 OWE[26768:90b] Finished load of: file:///Users/UCedge/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/A65CE988-B8B0-44BF-A411-7C53E392497B/OWE.app/www/index.html
+2014-09-30 16:17:20.644 OWE[36311:428135] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/415BD056-12EB-438A-ADDE-1956B1F8683F/Library/Cookies/Cookies.binarycookies
+2014-09-30 16:17:20.794 OWE[36311:428135] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-30 16:17:20.795 OWE[36311:428135] Multi-tasking -> Device: YES, App: YES
+2014-09-30 16:17:20.798 OWE[36311:428135] Unlimited access to network resources
+2014-09-30 16:17:20.812 OWE[36311:428135] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-30 16:17:21.294 OWE[36311:428135] Resetting plugins due to page load.
+2014-09-30 16:17:21.383 OWE[36311:428135] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/8C6BCF68-12E4-48BC-BDD4-10ADBD68D6A0/OWE.app/www/index.html
+2014-09-30 16:20:13.800 OWE[36452:429603] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/9B94F227-4262-4B33-B89F-CAF88CB6DD71/Library/Cookies/Cookies.binarycookies
+2014-09-30 16:20:13.908 OWE[36452:429603] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-30 16:20:13.909 OWE[36452:429603] Multi-tasking -> Device: YES, App: YES
+2014-09-30 16:20:13.912 OWE[36452:429603] Unlimited access to network resources
+2014-09-30 16:20:13.937 OWE[36452:429603] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-30 16:20:14.432 OWE[36452:429603] Resetting plugins due to page load.
+2014-09-30 16:20:14.540 OWE[36452:429603] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/F48C4229-D541-4B3F-ADA0-2F6B28A2F1D7/OWE.app/www/index.html
+2014-09-30 16:20:33.027 OWE[36452:429603] CDVWebViewDelegate: Navigation started when state=1
+2014-09-30 16:20:33.028 OWE[36452:429603] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2014-09-30 16:20:33.035 OWE[36452:429603] Resetting plugins due to page load.
+2014-09-30 16:20:33.229 OWE[36452:429603] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/F48C4229-D541-4B3F-ADA0-2F6B28A2F1D7/OWE.app/www/index.html#friends
+2014-09-30 16:21:26.391 OWE[36568:430536] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/6BE1A66D-69BA-416E-9DE0-CC447C22390B/Library/Cookies/Cookies.binarycookies
+2014-09-30 16:21:26.552 OWE[36568:430536] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-30 16:21:26.552 OWE[36568:430536] Multi-tasking -> Device: YES, App: YES
+2014-09-30 16:21:26.556 OWE[36568:430536] Unlimited access to network resources
+2014-09-30 16:21:26.561 OWE[36568:430536] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-30 16:21:27.026 OWE[36568:430536] Resetting plugins due to page load.
+2014-09-30 16:21:27.115 OWE[36568:430536] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/80399943-C779-4E78-918C-D228EBDE1C27/OWE.app/www/index.html
+2014-09-30 16:31:33.864 OWE[36737:434552] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/882F3AEC-31F5-482C-AF2D-79C04BD50A2B/Library/Cookies/Cookies.binarycookies
+2014-09-30 16:31:33.987 OWE[36737:434552] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-30 16:31:33.987 OWE[36737:434552] Multi-tasking -> Device: YES, App: YES
+2014-09-30 16:31:33.991 OWE[36737:434552] Unlimited access to network resources
+2014-09-30 16:31:34.009 OWE[36737:434552] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-30 16:31:34.436 OWE[36737:434552] Resetting plugins due to page load.
+2014-09-30 16:31:34.571 OWE[36737:434552] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/341A2001-E2FE-479D-8F40-381C15A26054/OWE.app/www/index.html
+2014-09-30 16:31:45.606 OWE[36737:434552] Resetting plugins due to page load.
+2014-09-30 16:31:45.688 OWE[36737:434552] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/341A2001-E2FE-479D-8F40-381C15A26054/OWE.app/www/index.html#transaction
+2014-09-30 16:33:07.135 OWE[36737:434552] CDVWebViewDelegate: Navigation started when state=1
+2014-09-30 16:33:07.135 OWE[36737:434552] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2014-09-30 16:33:07.999 OWE[36737:434552] CDVWebViewDelegate: Navigation started when state=1
+2014-09-30 16:33:07.999 OWE[36737:434552] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2014-09-30 16:34:06.794 OWE[36860:436053] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/EE55488B-6921-4356-A8C5-06B5F634548E/Library/Cookies/Cookies.binarycookies
+2014-09-30 16:34:06.924 OWE[36860:436053] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-30 16:34:06.925 OWE[36860:436053] Multi-tasking -> Device: YES, App: YES
+2014-09-30 16:34:06.928 OWE[36860:436053] Unlimited access to network resources
+2014-09-30 16:34:06.942 OWE[36860:436053] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-30 16:34:07.329 OWE[36860:436053] Resetting plugins due to page load.
+2014-09-30 16:34:07.404 OWE[36860:436053] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/2A4C5E70-5EF0-41E0-93B7-B7960C43277A/OWE.app/www/index.html
+2014-09-30 16:34:12.269 OWE[36860:436053] Can't find keyplane that supports type 5 for keyboard iPhone-Portrait-PhonePad; using 2870935746_Portrait_iPhone-Complex-Pad_Default
+2014-09-30 16:34:13.532 OWE[36860:436053] Can't find keyplane that supports type 5 for keyboard iPhone-Portrait-PhonePad; using 2870935746_Portrait_iPhone-Complex-Pad_Default
+2014-09-30 17:01:01.842 OWE[36860:436053] CDVWebViewDelegate: Navigation started when state=1
+2014-09-30 17:01:01.856 OWE[36860:436053] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2014-09-30 17:01:39.481 OWE[36994:444900] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/A093AF3C-0366-40A3-8A9A-3C117043EC85/Library/Cookies/Cookies.binarycookies
+2014-09-30 17:01:39.592 OWE[36994:444900] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-30 17:01:39.593 OWE[36994:444900] Multi-tasking -> Device: YES, App: YES
+2014-09-30 17:01:39.596 OWE[36994:444900] Unlimited access to network resources
+2014-09-30 17:01:39.610 OWE[36994:444900] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-30 17:01:39.987 OWE[36994:444900] Resetting plugins due to page load.
+2014-09-30 17:01:40.089 OWE[36994:444900] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/FBF240E9-C888-4281-A2A8-ED59CF851A66/OWE.app/www/index.html
+2014-09-30 17:01:56.506 OWE[36994:444900] CDVWebViewDelegate: Navigation started when state=1
+2014-09-30 17:01:56.506 OWE[36994:444900] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2014-09-30 17:05:01.805 OWE[36994:444900] CDVWebViewDelegate: Navigation started when state=1
+2014-09-30 17:05:01.822 OWE[36994:444900] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2014-09-30 17:05:01.823 OWE[36994:444900] Resetting plugins due to page load.
+2014-09-30 17:05:01.936 OWE[36994:444900] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/FBF240E9-C888-4281-A2A8-ED59CF851A66/OWE.app/www/index.html#transaction
+2014-09-30 17:09:38.030 OWE[37124:448512] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/230BDDA1-C7DC-4A55-8295-E4507D1F362B/Library/Cookies/Cookies.binarycookies
+2014-09-30 17:09:38.130 OWE[37124:448512] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-30 17:09:38.130 OWE[37124:448512] Multi-tasking -> Device: YES, App: YES
+2014-09-30 17:09:38.134 OWE[37124:448512] Unlimited access to network resources
+2014-09-30 17:09:38.150 OWE[37124:448512] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-30 17:09:38.502 OWE[37124:448512] Resetting plugins due to page load.
+2014-09-30 17:09:38.596 OWE[37124:448512] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/693A9BD3-8426-4253-96CE-78A8408B9BC4/OWE.app/www/index.html
+2014-09-30 17:09:53.736 OWE[37235:448946] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/90FA1B19-2996-4189-ABCC-3235450810AF/Library/Cookies/Cookies.binarycookies
+2014-09-30 17:09:53.779 OWE[37235:448946] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-30 17:09:53.779 OWE[37235:448946] Multi-tasking -> Device: YES, App: YES
+2014-09-30 17:09:53.783 OWE[37235:448946] Unlimited access to network resources
+2014-09-30 17:09:53.785 OWE[37235:448946] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-30 17:09:53.933 OWE[37235:448946] Resetting plugins due to page load.
+2014-09-30 17:09:53.994 OWE[37235:448946] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/60C41CBE-5923-409F-8693-E1E06EEBD23D/OWE.app/www/index.html
+2014-09-30 17:22:41.810 OWE[37425:454161] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/DD94D855-3125-45EC-93B4-895A54339556/Library/Cookies/Cookies.binarycookies
+2014-09-30 17:22:41.955 OWE[37425:454161] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-30 17:22:41.955 OWE[37425:454161] Multi-tasking -> Device: YES, App: YES
+2014-09-30 17:22:41.959 OWE[37425:454161] Unlimited access to network resources
+2014-09-30 17:22:41.972 OWE[37425:454161] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-30 17:22:42.566 OWE[37425:454161] Resetting plugins due to page load.
+2014-09-30 17:22:42.676 OWE[37425:454161] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/F3CB2333-AD55-49D5-9210-92703164FEF3/OWE.app/www/index.html
+2014-09-30 17:22:50.284 OWE[37425:454161] Can't find keyplane that supports type 5 for keyboard iPhone-Portrait-PhonePad; using 2870935746_Portrait_iPhone-Complex-Pad_Default
+2014-09-30 17:22:53.262 OWE[37425:454161] Can't find keyplane that supports type 5 for keyboard iPhone-Portrait-PhonePad; using 2870935746_Portrait_iPhone-Complex-Pad_Default
+2014-09-30 17:23:07.822 OWE[37425:454161] Can't find keyplane that supports type 5 for keyboard iPhone-Portrait-PhonePad; using 2870935746_Portrait_iPhone-Complex-Pad_Default
+2014-09-30 17:23:22.543 OWE[37538:454849] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/FD36F5CE-9A73-4666-A3C8-5B4518D5EEFD/Library/Cookies/Cookies.binarycookies
+2014-09-30 17:23:22.679 OWE[37538:454849] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-30 17:23:22.679 OWE[37538:454849] Multi-tasking -> Device: YES, App: YES
+2014-09-30 17:23:22.683 OWE[37538:454849] Unlimited access to network resources
+2014-09-30 17:23:22.696 OWE[37538:454849] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-30 17:23:23.156 OWE[37538:454849] Resetting plugins due to page load.
+2014-09-30 17:23:23.334 OWE[37538:454849] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/9902E715-DDBF-4723-B911-87623069BCEB/OWE.app/www/index.html
+2014-09-30 17:23:52.217 OWE[37538:454849] Resetting plugins due to page load.
+2014-09-30 17:23:52.302 OWE[37538:454849] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/9902E715-DDBF-4723-B911-87623069BCEB/OWE.app/www/index.html#transaction
+2014-09-30 17:28:05.832 OWE[37661:456792] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/D34387E1-E24D-4839-AB22-BFED9561258A/Library/Cookies/Cookies.binarycookies
+2014-09-30 17:28:05.953 OWE[37661:456792] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-30 17:28:05.953 OWE[37661:456792] Multi-tasking -> Device: YES, App: YES
+2014-09-30 17:28:05.957 OWE[37661:456792] Unlimited access to network resources
+2014-09-30 17:28:05.970 OWE[37661:456792] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-30 17:28:06.564 OWE[37661:456792] Resetting plugins due to page load.
+2014-09-30 17:28:06.716 OWE[37661:456792] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/67AD7C61-365B-43A1-90B5-4A1B34059E31/OWE.app/www/index.html
+2014-09-30 17:28:37.949 OWE[37661:456792] Can't find keyplane that supports type 5 for keyboard iPhone-Portrait-PhonePad; using 2870935746_Portrait_iPhone-Complex-Pad_Default
+2014-09-30 17:28:54.792 OWE[37774:457414] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/11C805FA-0F00-4F43-A575-7EA249490D6A/Library/Cookies/Cookies.binarycookies
+2014-09-30 17:28:54.886 OWE[37774:457414] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-30 17:28:54.886 OWE[37774:457414] Multi-tasking -> Device: YES, App: YES
+2014-09-30 17:28:54.890 OWE[37774:457414] Unlimited access to network resources
+2014-09-30 17:28:54.903 OWE[37774:457414] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-30 17:28:55.239 OWE[37774:457414] Resetting plugins due to page load.
+2014-09-30 17:28:55.316 OWE[37774:457414] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/639463A9-E482-4997-86BE-D421C200F304/OWE.app/www/index.html
+2014-09-30 17:30:43.136 OWE[37891:458562] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/118159B1-5089-4D8D-A39F-1045FF84479D/Library/Cookies/Cookies.binarycookies
+2014-09-30 17:30:43.203 OWE[37891:458562] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-30 17:30:43.203 OWE[37891:458562] Multi-tasking -> Device: YES, App: YES
+2014-09-30 17:30:43.207 OWE[37891:458562] Unlimited access to network resources
+2014-09-30 17:30:43.208 OWE[37891:458562] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-30 17:30:43.379 OWE[37891:458562] Resetting plugins due to page load.
+2014-09-30 17:30:43.439 OWE[37891:458562] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/555A174E-0E13-4FE5-AC48-4E34BB5F36DB/OWE.app/www/index.html
+2014-09-30 17:30:57.316 OWE[38001:458923] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/D7D62F10-A2C3-4975-B487-D3B37849C138/Library/Cookies/Cookies.binarycookies
+2014-09-30 17:30:57.360 OWE[38001:458923] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-30 17:30:57.360 OWE[38001:458923] Multi-tasking -> Device: YES, App: YES
+2014-09-30 17:30:57.364 OWE[38001:458923] Unlimited access to network resources
+2014-09-30 17:30:57.365 OWE[38001:458923] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-30 17:30:57.524 OWE[38001:458923] Resetting plugins due to page load.
+2014-09-30 17:30:57.585 OWE[38001:458923] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/939578A0-36FF-4C39-BFE7-77700E17D393/OWE.app/www/index.html
+2014-09-30 17:32:24.205 OWE[38116:459979] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/4FACC3C1-8A9B-4CDE-901E-70D40545134C/Library/Cookies/Cookies.binarycookies
+2014-09-30 17:32:24.312 OWE[38116:459979] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-30 17:32:24.312 OWE[38116:459979] Multi-tasking -> Device: YES, App: YES
+2014-09-30 17:32:24.316 OWE[38116:459979] Unlimited access to network resources
+2014-09-30 17:32:24.317 OWE[38116:459979] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-30 17:32:24.696 OWE[38116:459979] Resetting plugins due to page load.
+2014-09-30 17:32:24.790 OWE[38116:459979] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/ECB2A0DF-8C94-4445-BC82-7B6E7FFE1D57/OWE.app/www/index.html
+2014-09-30 17:32:59.305 OWE[38225:460448] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/3A294050-534A-418B-82AF-E440A455D8FB/Library/Cookies/Cookies.binarycookies
+2014-09-30 17:32:59.385 OWE[38225:460448] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-30 17:32:59.385 OWE[38225:460448] Multi-tasking -> Device: YES, App: YES
+2014-09-30 17:32:59.389 OWE[38225:460448] Unlimited access to network resources
+2014-09-30 17:32:59.390 OWE[38225:460448] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-30 17:32:59.680 OWE[38225:460448] Resetting plugins due to page load.
+2014-09-30 17:32:59.756 OWE[38225:460448] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/CD94FF35-9E3E-4C8D-B92B-379F1DB8F499/OWE.app/www/index.html
+2014-09-30 17:37:34.889 OWE[38355:462817] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/1CDAEBF6-EC8D-44FF-BB9D-8E304A4498A3/Library/Cookies/Cookies.binarycookies
+2014-09-30 17:37:35.057 OWE[38355:462817] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-30 17:37:35.058 OWE[38355:462817] Multi-tasking -> Device: YES, App: YES
+2014-09-30 17:37:35.061 OWE[38355:462817] Unlimited access to network resources
+2014-09-30 17:37:35.076 OWE[38355:462817] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-30 17:37:35.621 OWE[38355:462817] Resetting plugins due to page load.
+2014-09-30 17:37:35.739 OWE[38355:462817] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/55E0879E-987E-4D29-9E4A-55C6C3CFF942/OWE.app/www/index.html
+2014-09-30 17:38:42.004 OWE[38355:462817] Resetting plugins due to page load.
+2014-09-30 17:38:42.073 OWE[38355:462817] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/55E0879E-987E-4D29-9E4A-55C6C3CFF942/OWE.app/www/index.html#friends
+2014-09-30 17:39:56.047 OWE[38483:464018] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/92FD4861-CB57-4093-8A4F-B81987A57EE2/Library/Cookies/Cookies.binarycookies
+2014-09-30 17:39:56.155 OWE[38483:464018] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-30 17:39:56.155 OWE[38483:464018] Multi-tasking -> Device: YES, App: YES
+2014-09-30 17:39:56.159 OWE[38483:464018] Unlimited access to network resources
+2014-09-30 17:39:56.175 OWE[38483:464018] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-30 17:39:56.471 OWE[38483:464018] Resetting plugins due to page load.
+2014-09-30 17:39:56.546 OWE[38483:464018] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/0367D9C2-E94E-4EB6-B6A3-5852B2C88DBB/OWE.app/www/index.html
+2014-09-30 17:40:38.988 OWE[38596:464695] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/7BFF2DB5-00C9-4B63-AED6-B6BBE6B45357/Library/Cookies/Cookies.binarycookies
+2014-09-30 17:40:39.118 OWE[38596:464695] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-30 17:40:39.119 OWE[38596:464695] Multi-tasking -> Device: YES, App: YES
+2014-09-30 17:40:39.122 OWE[38596:464695] Unlimited access to network resources
+2014-09-30 17:40:39.134 OWE[38596:464695] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-30 17:40:39.543 OWE[38596:464695] Resetting plugins due to page load.
+2014-09-30 17:40:39.629 OWE[38596:464695] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/C53727EC-4AA4-4557-84F4-ABBE4616E95F/OWE.app/www/index.html
+2014-09-30 17:40:53.377 OWE[38706:465054] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/26A72B03-5594-4212-A5B5-353D11244D46/Library/Cookies/Cookies.binarycookies
+2014-09-30 17:40:53.421 OWE[38706:465054] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-30 17:40:53.422 OWE[38706:465054] Multi-tasking -> Device: YES, App: YES
+2014-09-30 17:40:53.425 OWE[38706:465054] Unlimited access to network resources
+2014-09-30 17:40:53.427 OWE[38706:465054] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-30 17:40:53.576 OWE[38706:465054] Resetting plugins due to page load.
+2014-09-30 17:40:53.637 OWE[38706:465054] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/9E936A7F-BDC9-4977-AF44-AA8C110A6D65/OWE.app/www/index.html
+2014-09-30 17:43:40.804 OWE[38840:466564] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/378D9AC4-210E-4889-820D-5C66818D0F2C/Library/Cookies/Cookies.binarycookies
+2014-09-30 17:43:40.895 OWE[38840:466564] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-30 17:43:40.895 OWE[38840:466564] Multi-tasking -> Device: YES, App: YES
+2014-09-30 17:43:40.899 OWE[38840:466564] Unlimited access to network resources
+2014-09-30 17:43:40.900 OWE[38840:466564] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-30 17:43:41.262 OWE[38840:466564] Resetting plugins due to page load.
+2014-09-30 17:43:41.370 OWE[38840:466564] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/B3B5FC13-31B4-436D-BE0F-396B2384F185/OWE.app/www/index.html
+2014-09-30 17:43:50.907 OWE[38840:466564] Resetting plugins due to page load.
+2014-09-30 17:43:50.978 OWE[38840:466564] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/B3B5FC13-31B4-436D-BE0F-396B2384F185/OWE.app/www/index.html
+2014-09-30 17:44:07.646 OWE[38953:467136] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/73D4C45A-63AA-43F5-A660-E7B631F265AE/Library/Cookies/Cookies.binarycookies
+2014-09-30 17:44:07.763 OWE[38953:467136] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-30 17:44:07.763 OWE[38953:467136] Multi-tasking -> Device: YES, App: YES
+2014-09-30 17:44:07.767 OWE[38953:467136] Unlimited access to network resources
+2014-09-30 17:44:07.774 OWE[38953:467136] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-30 17:44:08.128 OWE[38953:467136] Resetting plugins due to page load.
+2014-09-30 17:44:08.203 OWE[38953:467136] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/40FA07D5-8E04-4ABD-8C2C-C106C9BF30A0/OWE.app/www/index.html
+2014-09-30 17:44:18.988 OWE[38953:467136] Resetting plugins due to page load.
+2014-09-30 17:44:19.054 OWE[38953:467136] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/40FA07D5-8E04-4ABD-8C2C-C106C9BF30A0/OWE.app/www/index.html
+2014-09-30 17:44:43.348 OWE[39065:467757] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/A44CEC2D-63B8-4821-B8ED-6799C543AA84/Library/Cookies/Cookies.binarycookies
+2014-09-30 17:44:43.475 OWE[39065:467757] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-30 17:44:43.475 OWE[39065:467757] Multi-tasking -> Device: YES, App: YES
+2014-09-30 17:44:43.479 OWE[39065:467757] Unlimited access to network resources
+2014-09-30 17:44:43.491 OWE[39065:467757] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-30 17:44:43.895 OWE[39065:467757] Resetting plugins due to page load.
+2014-09-30 17:44:43.978 OWE[39065:467757] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/00B931D7-08C7-4966-A270-51E958E19551/OWE.app/www/index.html
+2014-09-30 17:45:15.470 OWE[39065:467757] Resetting plugins due to page load.
+2014-09-30 17:45:15.559 OWE[39065:467757] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/00B931D7-08C7-4966-A270-51E958E19551/OWE.app/www/index.html
+2014-09-30 17:54:16.458 OWE[39237:471822] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/19C2840B-D2EA-4321-AEB5-94D42971D5CD/Library/Cookies/Cookies.binarycookies
+2014-09-30 17:54:16.597 OWE[39237:471822] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-30 17:54:16.597 OWE[39237:471822] Multi-tasking -> Device: YES, App: YES
+2014-09-30 17:54:16.601 OWE[39237:471822] Unlimited access to network resources
+2014-09-30 17:54:16.613 OWE[39237:471822] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-30 17:54:16.974 OWE[39237:471822] Resetting plugins due to page load.
+2014-09-30 17:54:17.101 OWE[39237:471822] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/EF135551-ED81-427A-91AB-C9CE9706CDDB/OWE.app/www/index.html
+2014-09-30 17:54:30.725 OWE[39237:471822] Resetting plugins due to page load.
+2014-09-30 17:54:30.920 OWE[39237:471822] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/EF135551-ED81-427A-91AB-C9CE9706CDDB/OWE.app/www/index.html
+2014-09-30 17:54:54.045 OWE[39351:472441] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/A0EB8252-6212-42FF-92FD-C14E78E54863/Library/Cookies/Cookies.binarycookies
+2014-09-30 17:54:54.181 OWE[39351:472441] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-30 17:54:54.182 OWE[39351:472441] Multi-tasking -> Device: YES, App: YES
+2014-09-30 17:54:54.185 OWE[39351:472441] Unlimited access to network resources
+2014-09-30 17:54:54.196 OWE[39351:472441] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-30 17:54:54.648 OWE[39351:472441] Resetting plugins due to page load.
+2014-09-30 17:54:54.743 OWE[39351:472441] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/9E3AE7D0-C3F6-41F4-AC87-DD69140F8F65/OWE.app/www/index.html
+2014-09-30 17:55:40.418 OWE[39464:473209] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/7F5358AD-F49C-44F2-B5AF-BD3F54B95E22/Library/Cookies/Cookies.binarycookies
+2014-09-30 17:55:40.539 OWE[39464:473209] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-30 17:55:40.540 OWE[39464:473209] Multi-tasking -> Device: YES, App: YES
+2014-09-30 17:55:40.543 OWE[39464:473209] Unlimited access to network resources
+2014-09-30 17:55:40.555 OWE[39464:473209] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-30 17:55:40.942 OWE[39464:473209] Resetting plugins due to page load.
+2014-09-30 17:55:41.033 OWE[39464:473209] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/73FAE53B-3FDB-4002-8D08-7F2B2C1E1423/OWE.app/www/index.html
+2014-09-30 17:55:52.238 OWE[39574:473508] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/FD530E7B-3A48-4143-A918-12E1C1326B30/Library/Cookies/Cookies.binarycookies
+2014-09-30 17:55:52.281 OWE[39574:473508] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-30 17:55:52.281 OWE[39574:473508] Multi-tasking -> Device: YES, App: YES
+2014-09-30 17:55:52.284 OWE[39574:473508] Unlimited access to network resources
+2014-09-30 17:55:52.286 OWE[39574:473508] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-30 17:55:52.447 OWE[39574:473508] Resetting plugins due to page load.
+2014-09-30 17:55:52.510 OWE[39574:473508] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/5B22D4FB-73D8-4F40-80BF-8CA60F0C4331/OWE.app/www/index.html
+2014-09-30 17:56:02.166 OWE[39574:473508] Resetting plugins due to page load.
+2014-09-30 17:56:02.233 OWE[39574:473508] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/5B22D4FB-73D8-4F40-80BF-8CA60F0C4331/OWE.app/www/index.html#transaction
+2014-09-30 17:56:32.776 OWE[39686:474202] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/4E8E79F2-6D16-4937-BF0A-091251BD69E4/Library/Cookies/Cookies.binarycookies
+2014-09-30 17:56:32.903 OWE[39686:474202] Apache Cordova native platform version 3.6.0 is starting.
+2014-09-30 17:56:32.903 OWE[39686:474202] Multi-tasking -> Device: YES, App: YES
+2014-09-30 17:56:32.907 OWE[39686:474202] Unlimited access to network resources
+2014-09-30 17:56:32.921 OWE[39686:474202] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-09-30 17:56:33.672 OWE[39686:474202] Resetting plugins due to page load.
+2014-09-30 17:56:33.775 OWE[39686:474202] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/5B9E1D50-598D-4CE7-B2D3-EFCC8CEE1C22/OWE.app/www/index.html
+2014-10-01 10:42:23.857 OWE[39946:480948] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/E96C26A9-E0A3-46FA-97C6-2C3535485956/Library/Cookies/Cookies.binarycookies
+2014-10-01 10:42:23.974 OWE[39946:480948] Apache Cordova native platform version 3.6.0 is starting.
+2014-10-01 10:42:23.975 OWE[39946:480948] Multi-tasking -> Device: YES, App: YES
+2014-10-01 10:42:23.979 OWE[39946:480948] Unlimited access to network resources
+2014-10-01 10:42:24.017 OWE[39946:480948] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-10-01 10:42:24.844 OWE[39946:480948] Resetting plugins due to page load.
+2014-10-01 10:42:25.339 OWE[39946:480948] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/E397D49F-A71D-4E0F-9FA3-7D6C4EEB85AF/OWE.app/www/index.html
+2014-10-01 11:01:45.117 OWE[40135:488485] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/69B753C4-06A3-4F7D-A3E6-0DE19A6FB841/Library/Cookies/Cookies.binarycookies
+2014-10-01 11:01:45.269 OWE[40135:488485] Apache Cordova native platform version 3.6.0 is starting.
+2014-10-01 11:01:45.269 OWE[40135:488485] Multi-tasking -> Device: YES, App: YES
+2014-10-01 11:01:45.272 OWE[40135:488485] Unlimited access to network resources
+2014-10-01 11:01:45.291 OWE[40135:488485] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-10-01 11:01:45.918 OWE[40135:488485] Resetting plugins due to page load.
+2014-10-01 11:01:46.103 OWE[40135:488485] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/D5B9301F-4BEF-496E-BEA3-393065058931/OWE.app/www/index.html
+2014-10-01 11:01:52.007 OWE[40135:488485] Can't find keyplane that supports type 5 for keyboard iPhone-Portrait-PhonePad; using 2870935746_Portrait_iPhone-Complex-Pad_Default
+2014-10-01 11:07:00.110 OWE[40282:490968] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/66E3EEF7-71D9-4B54-8954-EE68C1DFD8FE/Library/Cookies/Cookies.binarycookies
+2014-10-01 11:07:00.207 OWE[40282:490968] Apache Cordova native platform version 3.6.0 is starting.
+2014-10-01 11:07:00.207 OWE[40282:490968] Multi-tasking -> Device: YES, App: YES
+2014-10-01 11:07:00.210 OWE[40282:490968] Unlimited access to network resources
+2014-10-01 11:07:00.224 OWE[40282:490968] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-10-01 11:07:00.626 OWE[40282:490968] Resetting plugins due to page load.
+2014-10-01 11:07:00.919 OWE[40282:490968] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/EBCD2867-B20F-4156-8315-436CB3E97BEB/OWE.app/www/index.html
+2014-10-01 11:07:04.039 OWE[40282:490968] Can't find keyplane that supports type 5 for keyboard iPhone-Portrait-PhonePad; using 2870935746_Portrait_iPhone-Complex-Pad_Default
+2014-10-01 11:07:33.207 OWE[40282:490968] Resetting plugins due to page load.
+2014-10-01 11:07:33.649 OWE[40282:490968] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/EBCD2867-B20F-4156-8315-436CB3E97BEB/OWE.app/www/index.html#transaction
+2014-10-01 11:07:52.432 OWE[40282:490968] Can't find keyplane that supports type 5 for keyboard iPhone-Portrait-PhonePad; using 2870935746_Portrait_iPhone-Complex-Pad_Default
+2014-10-01 11:16:16.012 OWE[40485:495214] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/4523BCB8-AECD-4C5B-8835-C24768C6C3B1/Library/Cookies/Cookies.binarycookies
+2014-10-01 11:16:16.138 OWE[40485:495214] Apache Cordova native platform version 3.6.0 is starting.
+2014-10-01 11:16:16.138 OWE[40485:495214] Multi-tasking -> Device: YES, App: YES
+2014-10-01 11:16:16.142 OWE[40485:495214] Unlimited access to network resources
+2014-10-01 11:16:16.155 OWE[40485:495214] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-10-01 11:16:16.794 OWE[40485:495214] Resetting plugins due to page load.
+2014-10-01 11:16:16.876 OWE[40485:495214] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/0F1EAFA9-19E9-4187-BCBA-C9588C2DF85E/OWE.app/www/index.html
+2014-10-01 11:17:27.668 OWE[40609:496082] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/F9DD5DB1-154F-425E-856C-3A64C453F35B/Library/Cookies/Cookies.binarycookies
+2014-10-01 11:17:27.782 OWE[40609:496082] Apache Cordova native platform version 3.6.0 is starting.
+2014-10-01 11:17:27.783 OWE[40609:496082] Multi-tasking -> Device: YES, App: YES
+2014-10-01 11:17:27.786 OWE[40609:496082] Unlimited access to network resources
+2014-10-01 11:17:27.796 OWE[40609:496082] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-10-01 11:17:28.123 OWE[40609:496082] Resetting plugins due to page load.
+2014-10-01 11:17:28.200 OWE[40609:496082] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/C517E514-A008-4002-A772-8BCE863FC12F/OWE.app/www/index.html
+2014-10-01 11:22:51.042 OWE[40744:498675] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/D9C39A8A-78CD-47BA-9972-C3B6DD801B90/Library/Cookies/Cookies.binarycookies
+2014-10-01 11:22:51.190 OWE[40744:498675] Apache Cordova native platform version 3.6.0 is starting.
+2014-10-01 11:22:51.190 OWE[40744:498675] Multi-tasking -> Device: YES, App: YES
+2014-10-01 11:22:51.194 OWE[40744:498675] Unlimited access to network resources
+2014-10-01 11:22:51.204 OWE[40744:498675] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-10-01 11:22:51.614 OWE[40744:498675] Resetting plugins due to page load.
+2014-10-01 11:22:51.699 OWE[40744:498675] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/C3B6A39F-A499-429B-9672-6BDDB51D3A12/OWE.app/www/index.html
+2014-10-01 11:29:29.250 OWE[40873:501580] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/97F18A83-9214-4A7F-A955-E9121F7D827D/Library/Cookies/Cookies.binarycookies
+2014-10-01 11:29:29.386 OWE[40873:501580] Apache Cordova native platform version 3.6.0 is starting.
+2014-10-01 11:29:29.386 OWE[40873:501580] Multi-tasking -> Device: YES, App: YES
+2014-10-01 11:29:29.390 OWE[40873:501580] Unlimited access to network resources
+2014-10-01 11:29:29.402 OWE[40873:501580] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-10-01 11:29:29.856 OWE[40873:501580] Resetting plugins due to page load.
+2014-10-01 11:29:29.981 OWE[40873:501580] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/1AB30488-C7AC-4FDD-9BAA-6BD4767E00F6/OWE.app/www/index.html
+2014-10-01 11:29:55.672 OWE[40873:501580] Can't find keyplane that supports type 5 for keyboard iPhone-Portrait-PhonePad; using 2870935746_Portrait_iPhone-Complex-Pad_Default
+2014-10-01 11:39:56.184 OWE[41013:505542] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/B30521EC-1459-4561-B8C5-B4051B8B5313/Library/Cookies/Cookies.binarycookies
+2014-10-01 11:39:56.294 OWE[41013:505542] Apache Cordova native platform version 3.6.0 is starting.
+2014-10-01 11:39:56.294 OWE[41013:505542] Multi-tasking -> Device: YES, App: YES
+2014-10-01 11:39:56.298 OWE[41013:505542] Unlimited access to network resources
+2014-10-01 11:39:56.317 OWE[41013:505542] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-10-01 11:39:56.821 OWE[41013:505542] Resetting plugins due to page load.
+2014-10-01 11:39:56.895 OWE[41013:505542] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/116F6051-412C-4533-93AD-2B99F1A314A8/OWE.app/www/index.html
+2014-10-01 11:40:14.157 OWE[41013:505542] Can't find keyplane that supports type 5 for keyboard iPhone-Portrait-PhonePad; using 2870935746_Portrait_iPhone-Complex-Pad_Default
+2014-10-01 11:40:15.884 OWE[41013:505542] Can't find keyplane that supports type 5 for keyboard iPhone-Portrait-PhonePad; using 2870935746_Portrait_iPhone-Complex-Pad_Default
+2014-10-01 11:51:32.120 OWE[41173:510267] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/D23DFD06-E9F9-4B2D-AC83-73B8825B1C65/Library/Cookies/Cookies.binarycookies
+2014-10-01 11:51:32.226 OWE[41173:510267] Apache Cordova native platform version 3.6.0 is starting.
+2014-10-01 11:51:32.227 OWE[41173:510267] Multi-tasking -> Device: YES, App: YES
+2014-10-01 11:51:32.230 OWE[41173:510267] Unlimited access to network resources
+2014-10-01 11:51:32.247 OWE[41173:510267] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-10-01 11:51:32.776 OWE[41173:510267] Resetting plugins due to page load.
+2014-10-01 11:51:32.901 OWE[41173:510267] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/0B981113-CDBD-47E1-8C43-E60FB27BD19C/OWE.app/www/index.html
+2014-10-01 11:52:01.471 OWE[41289:510847] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/EBF0A650-4313-4CF7-B203-07C7B9ECD254/Library/Cookies/Cookies.binarycookies
+2014-10-01 11:52:01.593 OWE[41289:510847] Apache Cordova native platform version 3.6.0 is starting.
+2014-10-01 11:52:01.593 OWE[41289:510847] Multi-tasking -> Device: YES, App: YES
+2014-10-01 11:52:01.596 OWE[41289:510847] Unlimited access to network resources
+2014-10-01 11:52:01.614 OWE[41289:510847] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-10-01 11:52:02.101 OWE[41289:510847] Resetting plugins due to page load.
+2014-10-01 11:52:02.418 OWE[41289:510847] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/E394815D-EF09-4AF8-B614-B39B98E9B841/OWE.app/www/index.html
+2014-10-01 11:52:06.733 OWE[41289:510847] Can't find keyplane that supports type 5 for keyboard iPhone-Portrait-PhonePad; using 2870935746_Portrait_iPhone-Complex-Pad_Default
+2014-10-01 11:52:30.334 OWE[41289:510847] Resetting plugins due to page load.
+2014-10-01 11:52:30.400 OWE[41289:510847] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/E394815D-EF09-4AF8-B614-B39B98E9B841/OWE.app/www/index.html#transaction
+2014-10-01 11:53:00.637 OWE[41406:511712] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/CC82B48B-C215-463C-8991-C1E94A50A108/Library/Cookies/Cookies.binarycookies
+2014-10-01 11:53:00.735 OWE[41406:511712] Apache Cordova native platform version 3.6.0 is starting.
+2014-10-01 11:53:00.735 OWE[41406:511712] Multi-tasking -> Device: YES, App: YES
+2014-10-01 11:53:00.739 OWE[41406:511712] Unlimited access to network resources
+2014-10-01 11:53:00.747 OWE[41406:511712] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-10-01 11:53:01.050 OWE[41406:511712] Resetting plugins due to page load.
+2014-10-01 11:53:01.126 OWE[41406:511712] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/BFBB24D3-9B25-44F4-825C-EB02EC626648/OWE.app/www/index.html
+2014-10-01 11:53:09.930 OWE[41406:511712] Can't find keyplane that supports type 5 for keyboard iPhone-Portrait-PhonePad; using 2870935746_Portrait_iPhone-Complex-Pad_Default
+2014-10-01 11:53:23.576 OWE[41406:511712] CDVWebViewDelegate: Navigation started when state=1
+2014-10-01 11:53:23.576 OWE[41406:511712] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2014-10-01 11:53:32.090 OWE[41406:511712] Can't find keyplane that supports type 5 for keyboard iPhone-Portrait-PhonePad; using 2870935746_Portrait_iPhone-Complex-Pad_Default
+2014-10-01 11:53:48.696 OWE[41516:512362] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/A9B71750-03EB-4358-9963-CD462A5DF77F/Library/Cookies/Cookies.binarycookies
+2014-10-01 11:53:48.745 OWE[41516:512362] Apache Cordova native platform version 3.6.0 is starting.
+2014-10-01 11:53:48.746 OWE[41516:512362] Multi-tasking -> Device: YES, App: YES
+2014-10-01 11:53:48.750 OWE[41516:512362] Unlimited access to network resources
+2014-10-01 11:53:48.751 OWE[41516:512362] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-10-01 11:53:48.905 OWE[41516:512362] Resetting plugins due to page load.
+2014-10-01 11:53:48.966 OWE[41516:512362] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/8CD09845-F3BE-4C91-A407-CF3905FDDCFC/OWE.app/www/index.html
+2014-10-01 11:59:28.334 OWE[41516:512362] Can't find keyplane that supports type 5 for keyboard iPhone-Portrait-PhonePad; using 2870935746_Portrait_iPhone-Complex-Pad_Default
+2014-10-01 12:01:45.055 OWE[41643:515609] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/19A1389C-CB90-4DF6-A16E-65EBE3533B13/Library/Cookies/Cookies.binarycookies
+2014-10-01 12:01:45.157 OWE[41643:515609] Apache Cordova native platform version 3.6.0 is starting.
+2014-10-01 12:01:45.157 OWE[41643:515609] Multi-tasking -> Device: YES, App: YES
+2014-10-01 12:01:45.161 OWE[41643:515609] Unlimited access to network resources
+2014-10-01 12:01:45.162 OWE[41643:515609] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-10-01 12:01:45.498 OWE[41643:515609] Resetting plugins due to page load.
+2014-10-01 12:01:45.601 OWE[41643:515609] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/D328DEFB-733F-41DE-9B14-EB19EF35D7C4/OWE.app/www/index.html
+2014-10-01 12:02:05.786 OWE[41755:516055] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/F0C97C91-10DE-4CA5-A848-54A058BA2637/Library/Cookies/Cookies.binarycookies
+2014-10-01 12:02:05.866 OWE[41755:516055] Apache Cordova native platform version 3.6.0 is starting.
+2014-10-01 12:02:05.866 OWE[41755:516055] Multi-tasking -> Device: YES, App: YES
+2014-10-01 12:02:05.870 OWE[41755:516055] Unlimited access to network resources
+2014-10-01 12:02:05.872 OWE[41755:516055] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-10-01 12:02:06.150 OWE[41755:516055] Resetting plugins due to page load.
+2014-10-01 12:02:06.224 OWE[41755:516055] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/51B7737B-D410-4D78-B29B-8B37A0F6C9BA/OWE.app/www/index.html
+2014-10-01 12:39:02.250 OWE[41969:528953] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/E4C96156-DEC0-4911-AD44-7C9F2917FBDF/Library/Cookies/Cookies.binarycookies
+2014-10-01 12:39:02.435 OWE[41969:528953] Apache Cordova native platform version 3.6.0 is starting.
+2014-10-01 12:39:02.435 OWE[41969:528953] Multi-tasking -> Device: YES, App: YES
+2014-10-01 12:39:02.439 OWE[41969:528953] Unlimited access to network resources
+2014-10-01 12:39:02.462 OWE[41969:528953] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-10-01 12:39:03.156 OWE[41969:528953] Resetting plugins due to page load.
+2014-10-01 12:39:03.499 OWE[41969:528953] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/CFACF4C4-8372-4489-AB5B-8CAB52CBAD43/OWE.app/www/index.html
+2014-10-01 12:42:39.046 OWE[42114:530858] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/5418B2E0-2008-459C-80DF-CB3BBECC9A7F/Library/Cookies/Cookies.binarycookies
+2014-10-01 12:42:39.153 OWE[42114:530858] Apache Cordova native platform version 3.6.0 is starting.
+2014-10-01 12:42:39.153 OWE[42114:530858] Multi-tasking -> Device: YES, App: YES
+2014-10-01 12:42:39.157 OWE[42114:530858] Unlimited access to network resources
+2014-10-01 12:42:39.170 OWE[42114:530858] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-10-01 12:42:39.573 OWE[42114:530858] Resetting plugins due to page load.
+2014-10-01 12:42:39.657 OWE[42114:530858] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/98186474-FE8D-4B2A-9FB4-0BF14DA9634C/OWE.app/www/index.html
+2014-10-01 12:52:50.232 OWE[42114:530858] Can't find keyplane that supports type 5 for keyboard iPhone-Portrait-PhonePad; using 2870935746_Portrait_iPhone-Complex-Pad_Default
+2014-10-01 12:57:04.323 OWE[42114:530858] Can't find keyplane that supports type 5 for keyboard iPhone-Portrait-PhonePad; using 2870935746_Portrait_iPhone-Complex-Pad_Default
+2014-10-01 12:57:08.422 OWE[42114:530858] Can't find keyplane that supports type 5 for keyboard iPhone-Portrait-PhonePad; using 2870935746_Portrait_iPhone-Complex-Pad_Default
+2014-10-01 13:00:30.862 OWE[42553:538320] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Data/Application/6963F558-B0CC-4CDD-A1F1-0E29C5FE9BB8/Library/Cookies/Cookies.binarycookies
+2014-10-01 13:00:31.200 OWE[42553:538320] Apache Cordova native platform version 3.6.0 is starting.
+2014-10-01 13:00:31.200 OWE[42553:538320] Multi-tasking -> Device: YES, App: YES
+2014-10-01 13:00:31.262 OWE[42553:538320] Unlimited access to network resources
+2014-10-01 13:00:31.316 OWE[42553:538320] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-10-01 13:00:34.285 OWE[42553:538320] Resetting plugins due to page load.
+2014-10-01 13:00:35.249 OWE[42553:538320] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/11CE5FAD-0F31-49D2-ACB6-62B8F5AC8D3B/OWE.app/www/index.html

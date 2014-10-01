@@ -5,7 +5,21 @@ var ViewTransaction = Backbone.View.extend({
         this.model.on("destroy", this.onDestroy, this);
     },
     render : function render () {
-        this.$el.html(this.template(this.model.toJSON())); 
+        var self = this;
+        this.$el.html(this.template(this.model.toJSON()));
+        setTimeout(function () {
+            var friendModel = window.FR.FriendCollection.findWhere({
+                id:parseInt(self.model.get("userid"))
+            });
+            if(friendModel){
+                self.$el.find(".dummyFriendName").html(friendModel.get("name"))
+            } else {
+                DataLayer.getFriendByID(parseInt(self.model.get("userid"))).done(function(friend) {
+                    //interested only in success case
+                    self.$el.find(".dummyFriendName").html(friend.name);
+                });
+            }
+        },0);
         return this;
     },
     events: {
