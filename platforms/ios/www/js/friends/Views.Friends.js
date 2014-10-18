@@ -24,7 +24,7 @@ var ViewFriends = Backbone.View.extend({
     },
 
     onNewFriend: function onNewFriend (model , collection) {
-        this._createFriendsView(model);
+        this._createFriendsView(model,{validate:true});
         this.$el.find(".dummyFriendsCount").html(this.collection.models.length);
         if(model.isNew()){
             model.save();

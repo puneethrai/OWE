@@ -16,7 +16,7 @@ var FriendModel = Backbone.Model.extend({
         };
     },
     validate: function (attrs, options) {
-        if (attrs.name === "") {
+        if (!attrs.name || attrs.name === "") {
             return -1;
         }
     },
