@@ -1,18 +1,18 @@
 var templates = {
-    templateHTMLs : {},
-    compiledTemplates : {},
+    templateHTMLs: {},
+    compiledTemplates: {},
 
-    load : function(settings,callback) {
+    load: function (settings, callback) {
         var that = this;
-        if(typeof(callback) !== "function"){
+        if (typeof callback !== "function") {
             throw new Error("Callback not Defined");
         }
         that.compiledTemplates[settings.moduleName] = {};
         that.templateHTMLs[settings.moduleName] = {};
-        var loadTemplate = function(index) {
+        var loadTemplate = function (index) {
             var name = settings.names[index],
-                url = settings.modulePath+ '/' +settings.templatePath + '/' + name + '.html';
-            $.get(url, function(data) {
+                url = settings.modulePath + '/' + settings.templatePath + '/' + name + '.html?cb=' + Math.random();
+            $.get(url, function (data) {
                 that.templateHTMLs[settings.moduleName][name] = data;
                 index++;
                 if (index < settings.names.length) {
@@ -27,10 +27,10 @@ var templates = {
         } else {
             callback();
         }
-        
+
     },
 
-    get : function(moduleName, name) {
+    get: function (moduleName, name) {
         var self = this;
         var moduleCompiledTemplates = self.compiledTemplates[moduleName];
         if (!moduleCompiledTemplates[name]) {

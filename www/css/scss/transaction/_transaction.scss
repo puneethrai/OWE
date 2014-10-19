@@ -1,4 +1,3 @@
-@import '../base/base';
 #Transaction {
     .bootstrap-select {
         padding: 0;
@@ -15,5 +14,10 @@
     > .container:last-child {
         padding-top: 150px;
         @include overflow-with-ios();
+    }
+    @media (max-width: $screen-xs-max) {
+        > .container:last-child {
+            padding-right:0; 
+        }
     }
 }

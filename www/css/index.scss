@@ -1,5 +1,7 @@
-@import 'scss/base/base';
+@import "scss/bootstrap/variables";
 
-@import 'scss/transaction/transaction';
+@import "scss/base/base";
 
-@import 'scss/friend/friend';
+@import "scss/transaction/transaction";
+
+@import "scss/friend/friend";
