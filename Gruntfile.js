@@ -6,7 +6,12 @@ module.exports = function (grunt) {
         jasmine: {
             components: {
                 src: [
-                    'spec/src/*js'
+                    'www/js/lib/jquery/*js',
+                    'www/js/lib/underscore/*js',
+                    'www/js/lib/boostrap/*js',
+                    'www/js/lib/backbone/*js',
+                    'www/js/*js',
+                    'spec/src/*js',
                 ],
                 options: {
                     specs: 'spec/spec/*.js',
