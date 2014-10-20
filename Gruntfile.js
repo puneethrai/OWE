@@ -19,12 +19,18 @@ module.exports = function (grunt) {
                     //helpers: 'test/spec/*.js'
                 }
             }
+        },
+        watch : {
+           tests: {
+               files: ['src/**', 'spec/**'],
+               tasks: ['travis']
+           }
         }
     });
-
+    grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-jasmine');
     // Default task(s).
     grunt.registerTask('travis', ['jasmine']);
-
+    grunt.registerTask('test-reload', ['travis', 'watch:tests']);
 
 };
