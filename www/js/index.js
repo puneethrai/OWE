@@ -37,7 +37,7 @@ var app = {
         if (this.mobile) {
             document.addEventListener('deviceready', this.onDeviceReady, false);
         } else {
-            window.addEventListener('load', this.onDeviceReady, false)
+            window.addEventListener('load', this.onDeviceReady, false);
         }
     },
     // deviceready Event Handler

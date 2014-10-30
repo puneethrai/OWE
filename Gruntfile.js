@@ -11,7 +11,8 @@ module.exports = function (grunt) {
                     'www/js/lib/boostrap/*js',
                     'www/js/lib/backbone/*js',
                     'www/js/*js',
-                    'spec/src/*js',
+                    'www/js/transactions/**.js',
+                    'www/js/friends/**.js'
                 ],
                 options: {
                     specs: 'spec/spec/*.js',
@@ -20,11 +21,11 @@ module.exports = function (grunt) {
                 }
             }
         },
-        watch : {
-           tests: {
-               files: ['src/**', 'spec/**'],
-               tasks: ['travis']
-           }
+        watch: {
+            tests: {
+                files: ['src/**', 'spec/**'],
+                tasks: ['travis']
+            }
         }
     });
     grunt.loadNpmTasks('grunt-contrib-watch');
