@@ -17,7 +17,15 @@ describe("Friend", function () {
             done();
         }
     });
-    describe("Router", function () {});
+    describe("Router", function () {
+        beforeEach(function () {});
+
+        xit("should have one route", function () {
+        });
+        
+        xit("should be listen to transaction url change", function () {
+        });
+    });
 
 
     describe("Collection", function () {
