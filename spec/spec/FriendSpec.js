@@ -22,8 +22,8 @@ describe("Friend", function () {
 
         xit("should have one route", function () {
         });
-        
-        xit("should be listen to transaction url change", function () {
+
+        xit("should be listen to friend url change", function () {
         });
     });
 
