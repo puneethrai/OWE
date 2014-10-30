@@ -1,3 +1,4 @@
+/*global Backbone,templates,$,ViewTransaction,app*/
 var ViewTransactions = Backbone.View.extend({
     id: "Transaction",
     initialize: function initialize(options) {
@@ -50,14 +51,24 @@ var ViewTransactions = Backbone.View.extend({
         this._onAddToCollection(this.$el.find(".dummyAmount").val(), "+", this.$el.find(".dummyFriends").val());
     },
     _onAddToCollection: function _onAddToCollection(amount, type, userid) {
-
+        /*var transactionModel = this.collection.findWhere({
+            userid: parseInt(userid, 10),
+            type: type
+        });
+        if (transactionModel) {
+            if (transactionModel.set("amount", transactionModel.get("amount") + parseInt(amount, 10), {validate: true})) {
+                this._updateOWEValue(transactionModel);
+                transactionModel.save();
+            }
+        } else {*/
         this.collection.add({
             amount: parseInt(amount, 10),
             type: type,
-            userid: userid
+            userid: parseInt(userid, 10)
         }, {
             validate: true
         });
+        /*}*/
     },
     onDeleteTransaction: function onDeleteTransaction(model) {
         if (model.get("type") === model.TYPE.DEBT) {
@@ -71,7 +82,7 @@ var ViewTransactions = Backbone.View.extend({
     onNewFriends: function (model, collection) {
         /*jslint unparam:true*/
         var self = this;
-        self.$el.find(".dummyFriends").append($("<option>").attr("value", model.get("id")).html(model.get("name")));
+        self.$el.find("select.dummyFriends").append($("<option>").attr("value", model.get("id")).html(model.get("name")));
         this.$el.find(".dummyFriends").selectpicker('refresh');
     },
     onRemoveFriends: function (model, collection) {
@@ -85,7 +96,11 @@ var ViewTransactions = Backbone.View.extend({
             model: model
         }).render();
         this.$el.find(".dummyTransaction").append(transactionView.el);
-        if (model.get("type") == model.TYPE.DEBT) {
+        this._updateOWEValue(model);
+        app.scrollDown(transactionView.$el.offset().top - this.$el.find(".dummyTransaction").offset().top + this.$el.find(".dummyTransaction").scrollTop());
+    },
+    _updateOWEValue : function (model) {
+        if (model.get("type") === model.TYPE.DEBT) {
             this.tAmount += model.get("amount");
             this.$el.find(".dummyTCount").html(this.tAmount);
         } else {
@@ -93,6 +108,5 @@ var ViewTransactions = Backbone.View.extend({
             this.$el.find(".dummyYCount").html(this.yAmount);
 
         }
-        app.scrollDown(transactionView.$el.offset().top - this.$el.find(".dummyTransaction").offset().top + this.$el.find(".dummyTransaction").scrollTop());
     }
 });
