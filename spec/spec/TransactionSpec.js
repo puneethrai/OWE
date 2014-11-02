@@ -3,6 +3,7 @@
         var TR, loaded = false;
 
         beforeEach(function (done) {
+            jasmine.DEFAULT_TIMEOUT_INTERVAL = 5000;
             if (!loaded) {
                 templates.load({
                     names: ['Transaction', 'Transactions'],
@@ -10,8 +11,10 @@
                     templatePath: 'templates',
                     moduleName: 'transaction'
                 }, function () {
-                    loaded = true;
-                    done();
+                    DataLayer.initialize().done(function (){
+                        loaded = true;
+                        done();
+                    });
                 });
             } else {
                 done();
@@ -54,19 +57,21 @@
                     }
                 };
             beforeEach(function () {
-                jasmine.DEFAULT_TIMEOUT_INTERVAL = 100;
+                /*fetch may take time during startup*/
+                jasmine.DEFAULT_TIMEOUT_INTERVAL = 1000;
                 testData.TCData = {};
                 TC = new TransactionCollection();
             });
             it("should able to fetch data from abstraction layer", function (done) {
-                var callBack = {},
-                    cbFn = function (args) {
+                var callBack = {
+                    cbFn : function (args) {
                         /*jslint unparam:true*/
                         expect(callBack.success).toHaveBeenCalled();
                         expect(callBack.error).not.toHaveBeenCalled();
                         done();
-                    };
-                callBack.success = callBack.error = cbFn;
+                    }
+                };
+                callBack.success = callBack.error = callBack.cbFn;
                 spyOn(callBack, "success").and.callThrough();
                 spyOn(callBack, "error").and.callThrough();
                 TC.fetch(callBack);
@@ -170,13 +175,13 @@
             var TM = null;
             beforeEach(function () {
                 //used for mulitple request to datalayer in same spec
-                jasmine.DEFAULT_TIMEOUT_INTERVAL = 1000;
+                jasmine.DEFAULT_TIMEOUT_INTERVAL = 2000;
                 TM = new TransactionModel();
             });
             it("should able to add amount and notify the change", function (done) {
                 var testData = {
                     callBack: function () {
-                        expect(testData.callBack).toHaveBeenCalled();
+                        expect(testData.callBack).toHaveBeenCalledWith(TM, TM.get("amount"), {});
                         done();
                     }
                 };
@@ -312,7 +317,7 @@
                     collection: TC,
                     friendCollection: FC
                 }).render();
-                jasmine.DEFAULT_TIMEOUT_INTERVAL = 500;
+                jasmine.DEFAULT_TIMEOUT_INTERVAL = 2000;
             });
             afterEach(function () {
                 VTS.remove();
@@ -410,7 +415,7 @@
                     friendCollection: FC
                 }).render();
                 $("#dynamic").html(VT.$el);
-
+                jasmine.DEFAULT_TIMEOUT_INTERVAL = 2000;
             });
             afterEach(function () {
                 VT.remove();

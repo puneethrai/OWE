@@ -2,11 +2,7 @@ var FriendRouter = Backbone.Router.extend({
     initialize: function initialize(argument) {
         var self = this;
         self.FriendCollection = new FriendCollection();
-        DataLayer.getAllFriends().done(function (friends) {
-            self.FriendCollection.add(friends, {
-                validate: true
-            });
-        });
+        self.FriendCollection.fetch();
     },
     routes: {
         friends: "onFriend"

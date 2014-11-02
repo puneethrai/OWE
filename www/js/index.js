@@ -27,7 +27,9 @@ var app = {
                 document.write("<script type='text/javascript' src='cordova.js'></script>");
             }
         }(navigator.userAgent || navigator.vendor || window.opera));
-        this.bindEvents();
+        if (!window.jasmine) {
+            this.bindEvents();
+        }
     },
     // Bind Event Listeners
     //
