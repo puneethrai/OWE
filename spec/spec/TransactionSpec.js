@@ -384,9 +384,9 @@
             it("should listen for add and remove event of friends collection and update the UI", function (done) {
                 FC.on("add", function (model) {
                     setTimeout(function () {
-                        expect(VTS.$el.find(".dummyFriends option")).toHaveLength(1);
-                        expect(VTS.$el.find(".dummyFriends option[value=" + model.get("id") + "]")).toBeInDOM();
-                        expect(VTS.$el.find(".dummyFriends option[value=" + model.get("id") + "]")).toHaveText(model.get("name"));
+                        expect(VTS.$el.find("select.dummyFriends option")).toHaveLength(1);
+                        expect(VTS.$el.find("select.dummyFriends option[value=" + model.get("id") + "]")).toBeInDOM();
+                        expect(VTS.$el.find("select.dummyFriends option[value=" + model.get("id") + "]")).toHaveText(model.get("name"));
                         done();
                     }, 0);
                 });
