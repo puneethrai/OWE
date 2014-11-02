@@ -5,11 +5,12 @@ var TransactionModel = Backbone.Model.extend({
         return this;
     },
     TYPE: {
-        DEBT: "+",
-        CREDIT: "-"
+        DEBT: "-",
+        CREDIT: "+"
     },
     ERROR: {
-        "-1": "Not valid amount"
+        "-1": "Not valid amount",
+        "-2": "Not valid transaction type"
     },
     defaults: function defaults() {
         return {
@@ -23,16 +24,24 @@ var TransactionModel = Backbone.Model.extend({
         if (typeof attrs.amount !== "number" || isNaN(attrs.amount)) {
             return -1;
         }
+        if (attrs.type !== this.TYPE.DEBT && attrs.type !== this.TYPE.CREDIT) {
+            return -2;
+        }
     },
     save: function save() {
         var self = this,
             defer = $.Deferred();
-        DataLayer.addTransaction(this.toJSON()).done(function (transaction) {
-            self.set("id", transaction.id || transaction);
-        }).fail(function () {
-            self.destroy();
-        });
+        if (this.isValid()) {
+            DataLayer.addTransaction(this.toJSON()).done(function (transaction) {
+                self.set("id", transaction.id || transaction);
+            }).fail(function () {
+                self.destroy();
+            });
+        } else {
+            defer.reject();
+        }
         return defer.promise();
+
     },
     destroy: function () {
         var self = this;

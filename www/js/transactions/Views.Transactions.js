@@ -93,7 +93,8 @@ var ViewTransactions = Backbone.View.extend({
     },
     _createTransactionView: function _createTransactionView(model) {
         var transactionView = new ViewTransaction({
-            model: model
+            model: model,
+            friendCollection: this.options.friendCollection
         }).render();
         this.$el.find(".dummyTransaction").append(transactionView.el);
         this._updateOWEValue(model);

@@ -6,10 +6,6 @@ module.exports = function (grunt) {
         jasmine: {
             components: {
                 src: [
-                    'www/js/lib/jquery/*js',
-                    'www/js/lib/underscore/*js',
-                    'www/js/lib/boostrap/*js',
-                    'www/js/lib/backbone/*js',
                     'www/js/*js',
                     'www/js/transactions/**.js',
                     'www/js/friends/**.js'
@@ -17,6 +13,14 @@ module.exports = function (grunt) {
                 options: {
                     specs: 'spec/spec/*.js',
                     keepRunner: true,
+                    vendor: [
+                        'www/js/lib/jquery/*js',
+                        'www/js/lib/underscore/*js',
+                        'www/js/lib/boostrap/*js',
+                        'www/js/lib/backbone/*js',
+                        'spec/vendor/jasmine-jquery.js'
+                    ],
+                    template: "spec/SpecRunner.tmpl"
                     //helpers: 'test/spec/*.js'
                 }
             }

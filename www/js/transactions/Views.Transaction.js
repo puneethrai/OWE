@@ -1,18 +1,21 @@
 /*global Backbone,templates,$,ViewTransaction,app, DataLayer*/
 var ViewTransaction = Backbone.View.extend({
+    className: "transaction",
     initialize: function initilization(options) {
         this.options = options;
         this.template = templates.get('transaction', 'Transaction');
         this.model.on({
             "destroy": this.onDestroy,
-            "change:amount": this.onAmountChange
+            "change:amount": this.onAmountChange,
+            "change:type": this.onChangeTransactionType
         }, this);
     },
     render: function render() {
         var self = this;
         this.$el.html(this.template(this.model.toJSON()));
+        this.currentTypeClass = this.model.get("type") === this.model.TYPE.DEBT ? "panel-danger" : "panel-primary";
         setTimeout(function () {
-            var friendModel = window.FR.FriendCollection.findWhere({
+            var friendModel = self.options.friendCollection.findWhere({
                 id: parseInt(self.model.get("userid"), 10)
             });
             if (friendModel) {
@@ -36,6 +39,11 @@ var ViewTransaction = Backbone.View.extend({
     onAmountChange: function (model, amount) {
         /*jslint unparam:true*/
         this.$el.find(".dummyUserAmount").html("Amount " + amount);
+    },
+    onChangeTransactionType: function (model, type) {
+        this.$el.find(".panel").removeClass(this.currentTypeClass);
+        this.currentTypeClass = type === model.TYPE.DEBT ? "panel-danger" : "panel-primary";
+        this.$el.find(".panel").addClass(this.currentTypeClass);
     },
     onDestroy: function onDestroy(model) {
         /*jslint unparam:true*/
