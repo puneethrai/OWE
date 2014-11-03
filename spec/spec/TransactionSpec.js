@@ -386,7 +386,7 @@
                     setTimeout(function () {
                         expect(VTS.$el.find("select.dummyFriends option")).toHaveLength(FC.models.length);
                         expect(VTS.$el.find("select.dummyFriends option[value=" + model.get("id") + "]")).toBeInDOM();
-                        expect(VTS.$el.find("select.dummyFriends option[value=" + model.get("id") + "]")).toHaveValue(model.get("name"));
+                        expect(VTS.$el.find("select.dummyFriends option[value=" + model.get("id") + "]")).toHaveText(new RegExp(model.get("name")));
                         done();
                     }, 0);
                 });
