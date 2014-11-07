@@ -1,19 +1,20 @@
+/*global Backbone, TransactionCollection, ViewTransactions, FR*/
 var TransactionRouter = Backbone.Router.extend({
-    initialize : function initialize (argument) {
+    initialize: function initialize(argument) {
+        /*jslint unparam:true*/
         var self = this;
         self.TransactionCollection = new TransactionCollection();
-        DataLayer.getAllTransaction().done(function(transactions){
-            self.TransactionCollection.add(transactions,{ validate: true });
-        });
+        self.TransactionCollection.fetch();
     },
     routes: {
         transaction: "onTransaction"
     },
-    onTransaction : function onTransaction (argument) {
-        if(window.FR && FR.FV){
+    onTransaction: function onTransaction(argument) {
+        /*jslint unparam:true*/
+        if (FR && FR.FV) {
             FR.FV.$el.addClass("hide");
         }
-        if(!this.TV) {
+        if (!this.TV) {
             this.TV = new ViewTransactions({
                 parentDiv: "Dynamic",
                 collection: this.TransactionCollection,
