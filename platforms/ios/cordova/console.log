@@ -1256,3 +1256,17 @@ https://developer.apple.com/icloud/documentation/data-storage/
 
 2014-10-01 13:00:34.285 OWE[42553:538320] Resetting plugins due to page load.
 2014-10-01 13:00:35.249 OWE[42553:538320] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/E3D0CAD5-E6CE-4752-BD68-9D5299E0C68B/data/Containers/Bundle/Application/11CE5FAD-0F31-49D2-ACB6-62B8F5AC8D3B/OWE.app/www/index.html
+2014-11-04 16:06:04.431 OWE[94074:4038575] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/460BF102-E4C5-40F4-8803-0C6C42CB9B27/data/Containers/Data/Application/ECB3409D-7AD7-45FD-910F-BF65C0A7F1D2/Library/Cookies/Cookies.binarycookies
+2014-11-04 16:06:05.611 OWE[94074:4038575] Apache Cordova native platform version 3.6.0 is starting.
+2014-11-04 16:06:05.623 OWE[94074:4038575] Multi-tasking -> Device: YES, App: YES
+2014-11-04 16:06:05.678 OWE[94074:4038575] Unlimited access to network resources
+2014-11-04 16:06:05.825 OWE[94074:4038575] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-11-04 16:06:13.946 OWE[94074:4038575] Resetting plugins due to page load.
+2014-11-04 16:06:16.178 OWE[94074:4038575] Finished load of: file:///Users/UCedge/Library/Developer/CoreSimulator/Devices/460BF102-E4C5-40F4-8803-0C6C42CB9B27/data/Containers/Bundle/Application/BC55A559-DBF9-40C8-BEFB-769FB0E0C0AA/OWE.app/www/index.html
+2014-11-04 16:07:29.068 OWE[94074:4038575] Can't find keyplane that supports type 5 for keyboard iPhone-Portrait-PhonePad; using 2870935746_Portrait_iPhone-Complex-Pad_Default

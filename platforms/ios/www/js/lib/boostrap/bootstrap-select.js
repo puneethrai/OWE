@@ -109,6 +109,7 @@
   Selectpicker.DEFAULTS = {
     noneSelectedText: 'Nothing selected',
     noneResultsText: 'No results match',
+    addThisUser: ' add as friend',
     countSelectedText: function (numSelected, numTotal) {
       return (numSelected == 1) ? "{0} item selected" : "{0} items selected";
     },
@@ -577,7 +578,7 @@
               'position': 'absolute'
             });
           };
-      this.$newElement.on('click', function () {
+      this.$newElement.on('tap', function () {
         if (that.isDisabled()) {
           return;
         }
@@ -592,7 +593,7 @@
       $(window).on('scroll', function () {
         getPlacement(that.$newElement);
       });
-      $('html').on('click', function (e) {
+      $('html').on('tap', function (e) {
         if ($(e.target).closest(that.$newElement).length < 1) {
           $drop.removeClass('open');
         }
@@ -651,7 +652,7 @@
         e.stopPropagation();
       });
 
-      this.$newElement.on('click', function () {
+      this.$newElement.on('tap', function () {
         that.setSize();
         if (!that.options.liveSearch && !that.multiple) {
           setTimeout(function () {
@@ -660,7 +661,7 @@
         }
       });
 
-      this.$menu.on('click', 'li a', function (e) {
+      this.$menu.on('tap', 'li a', function (e) {
         var $this = $(this),
             clickedIndex = $this.parent().data('originalIndex'),
             prevValue = that.$element.val(),
@@ -762,7 +763,7 @@
         }
       });
 
-      this.$menu.on('click', 'li.disabled a, .popover-title, .popover-title :not(.close)', function (e) {
+      this.$menu.on('tap', 'li.disabled a, .popover-title, .popover-title :not(.close)', function (e) {
         if (e.target == this) {
           e.preventDefault();
           e.stopPropagation();
@@ -774,7 +775,7 @@
         }
       });
 
-      this.$menu.on('click', 'li.divider, li.dropdown-header', function (e) {
+      this.$menu.on('tap', 'li.divider, li.dropdown-header', function (e) {
         e.preventDefault();
         e.stopPropagation();
         if (!that.options.liveSearch) {
@@ -784,16 +785,16 @@
         }
       });
 
-      this.$menu.on('click', '.popover-title .close', function () {
+      this.$menu.on('tap', '.popover-title .close', function () {
         that.$button.focus();
       });
 
-      this.$searchbox.on('click', function (e) {
+      this.$searchbox.on('tap', function (e) {
         e.stopPropagation();
       });
 
 
-      this.$menu.on('click', '.actions-btn', function (e) {
+      this.$menu.on('tap', '.actions-btn', function (e) {
         if (that.options.liveSearch) {
           that.$searchbox.focus();
         } else {
@@ -848,10 +849,16 @@
 
           if (!that.$menu.find('li').filter(':visible:not(.no-results)').length) {
             if (!!no_results.parent().length) no_results.remove();
-            no_results.html(that.options.noneResultsText + ' "' + htmlEscape(that.$searchbox.val()) + '"').show();
+            no_results.html(that.options.noneResultsText + ' "' + htmlEscape(that.$searchbox.val()) + '" - ' + that.options.addThisUser).show();
             that.$menu.find('li').last().after(no_results);
+            that.$button.attr('title',htmlEscape(that.$searchbox.val()));
+            that.$newElement.find('.filter-option').html(htmlEscape(that.$searchbox.val()));
+            that.$element.trigger("NoResult", that.$searchbox.val());
+            that.setSelected(that.$menu.find('li.active').data('originalIndex'), false);
           } else if (!!no_results.parent().length) {
             no_results.remove();
+            that.$button.html(htmlEscape(that.$element.val()));
+            that.$element.trigger("ResultFound", that.$searchbox.val());
           }
 
         } else {
@@ -964,7 +971,7 @@
           that.$menu.parent().addClass('open');
           isActive = true;
         } else {
-          that.$newElement.trigger('click');
+          that.$newElement.trigger('tap');
         }
         that.$searchbox.focus();
       }

@@ -498,7 +498,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = OWE;
-				PROVISIONING_PROFILE = "25ff6dca-59d9-4ddf-9bb0-68d040229e74";
+				PROVISIONING_PROFILE = "7f62095f-f382-4ae4-a1e7-c3dd0e06cdac";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -532,7 +532,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = OWE;
-				PROVISIONING_PROFILE = "25ff6dca-59d9-4ddf-9bb0-68d040229e74";
+				PROVISIONING_PROFILE = "7f62095f-f382-4ae4-a1e7-c3dd0e06cdac";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

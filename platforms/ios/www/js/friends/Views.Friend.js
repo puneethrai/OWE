@@ -1,22 +1,29 @@
 var ViewFriend = Backbone.View.extend({
-    initialize: function initilization (options) {
+    className: "friend",
+    initialize: function initilization(options) {
         this.options = options;
-        this.template = templates.get('friend','Friend');
-        this.model.on("destroy", this.onDestroy, this);
+        this.template = templates.get('friend', 'Friend');
+        this.model.on({
+            "destroy": this.onDestroy,
+            "change:name": this.onNameChange
+        }, this);
     },
-    render : function render () {
-        this.$el.html(this.template(this.model.toJSON())); 
+    render: function render() {
+        this.$el.html(this.template(this.model.toJSON()));
         return this;
     },
     events: {
-        "tap .dummyDelete"                : "onRemoveTransaction",
+        "tap .dummyDelete": "onRemoveTransaction",
     },
-    onRemoveTransaction : function onRemoveTransaction () {
+    onRemoveTransaction: function onRemoveTransaction() {
         this.model.destroy();
         return false;
     },
-    onDestroy: function onDestroy (model) {
-        this.model.off(null,null,this);
+    onNameChange: function (model, value) {
+        this.$el.find(".displayName").html("Friend Name:" + value);
+    },
+    onDestroy: function onDestroy(model) {
+        this.model.off(null, null, this);
         this.remove();
     }
 

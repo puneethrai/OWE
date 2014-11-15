@@ -11,7 +11,7 @@
                     templatePath: 'templates',
                     moduleName: 'transaction'
                 }, function () {
-                    DataLayer.initialize().done(function (){
+                    DataLayer.initialize().done(function () {
                         loaded = true;
                         done();
                     });

@@ -1,3 +1,4 @@
+/*global Backbone,templates,$,ViewTransaction,app*/
 var ViewTransactions = Backbone.View.extend({
     id: "Transaction",
     initialize: function initialize(options) {
@@ -13,6 +14,8 @@ var ViewTransactions = Backbone.View.extend({
         }, this);
         this.tAmount = 0;
         this.yAmount = 0;
+        this.newFriend = "";
+        this.waitingForNewFriend = null;
     },
     render: function render() {
         var self = this,
@@ -32,16 +35,27 @@ var ViewTransactions = Backbone.View.extend({
     },
     events: {
         "tap .dummyDebt": "onAddDebt",
-        "tap .dummyCredit": "onAddCredit"
+        "tap .dummyCredit": "onAddCredit",
+        "NoResult": "onNoResult",
+        "ResultFound": "onResultFound"
     },
 
     onNewTransaction: function onNewTransaction(model, collection) {
         /*jslint unparam:true*/
-        this._createTransactionView(model);
-        if (isNaN(parseInt(model.get("id"), 10))) {
+        var transactionView = this._createTransactionView(model);
+        if (model.isNew()) {
             model.save();
+            app.scrollDown(transactionView.$el.offset().top - this.$el.find(".dummyTransaction").offset().top + this.$el.find(".dummyTransaction").scrollTop());
         }
 
+    },
+    onNoResult: function (event, name) {
+        /*jslint unparam:true*/
+        this.newFriend = name;
+    },
+    onResultFound: function (event, name) {
+        /*jslint unparam:true*/
+        this.newFriend = "";
     },
     onAddDebt: function onAddDebt() {
         this._onAddToCollection(this.$el.find(".dummyAmount").val(), "-", this.$el.find(".dummyFriends").val());
@@ -50,14 +64,33 @@ var ViewTransactions = Backbone.View.extend({
         this._onAddToCollection(this.$el.find(".dummyAmount").val(), "+", this.$el.find(".dummyFriends").val());
     },
     _onAddToCollection: function _onAddToCollection(amount, type, userid) {
-
-        this.collection.add({
-            amount: parseInt(amount, 10),
-            type: type,
-            userid: userid
-        }, {
-            validate: true
-        });
+        var tempModel = null;
+        app.scrollStop();
+        if (this.newFriend) {
+            this.waitingForNewFriend = {
+                amount: parseInt(amount, 10),
+                type: type
+            };
+            tempModel = new this.collection.model(this.waitingForNewFriend);
+            if (tempModel.isValid()) {
+                this.options.friendCollection.create({
+                    name: this.newFriend
+                }, {
+                    wait: true
+                });
+            } else {
+                this.waitingForNewFriend = null;
+            }
+            this.newFriend = "";
+        } else {
+            this.collection.add(this.waitingForNewFriend || {
+                amount: parseInt(amount, 10),
+                type: type,
+                userid: parseInt(userid, 10)
+            }, {
+                validate: true
+            });
+        }
     },
     onDeleteTransaction: function onDeleteTransaction(model) {
         if (model.get("type") === model.TYPE.DEBT) {
@@ -71,8 +104,14 @@ var ViewTransactions = Backbone.View.extend({
     onNewFriends: function (model, collection) {
         /*jslint unparam:true*/
         var self = this;
-        self.$el.find(".dummyFriends").append($("<option>").attr("value", model.get("id")).html(model.get("name")));
-        this.$el.find(".dummyFriends").selectpicker('refresh');
+        self.$el.find("select.dummyFriends").append($("<option>").attr("value", model.get("id")).html(model.get("name")));
+        if (self.waitingForNewFriend) {
+            self.waitingForNewFriend.userid = model.get("id");
+            self._onAddToCollection();
+            self.waitingForNewFriend = null;
+        }
+        self.$el.find(".dummyFriends").selectpicker('refresh');
+
     },
     onRemoveFriends: function (model, collection) {
         /*jslint unparam:true*/
@@ -82,10 +121,15 @@ var ViewTransactions = Backbone.View.extend({
     },
     _createTransactionView: function _createTransactionView(model) {
         var transactionView = new ViewTransaction({
-            model: model
+            model: model,
+            friendCollection: this.options.friendCollection
         }).render();
         this.$el.find(".dummyTransaction").append(transactionView.el);
-        if (model.get("type") == model.TYPE.DEBT) {
+        this._updateOWEValue(model);
+        return transactionView;
+    },
+    _updateOWEValue: function (model) {
+        if (model.get("type") === model.TYPE.DEBT) {
             this.tAmount += model.get("amount");
             this.$el.find(".dummyTCount").html(this.tAmount);
         } else {
@@ -93,6 +137,5 @@ var ViewTransactions = Backbone.View.extend({
             this.$el.find(".dummyYCount").html(this.yAmount);
 
         }
-        app.scrollDown(transactionView.$el.offset().top - this.$el.find(".dummyTransaction").offset().top + this.$el.find(".dummyTransaction").scrollTop());
     }
 });

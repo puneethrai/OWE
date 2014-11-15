@@ -27,7 +27,11 @@ var app = {
                 document.write("<script type='text/javascript' src='cordova.js'></script>");
             }
         }(navigator.userAgent || navigator.vendor || window.opera));
-        this.bindEvents();
+        if (!window.jasmine) {
+            this.bindEvents();
+        } else {
+            window.jasmine.getEnv().addReporter(new window.jasmine.JSReporter2());
+        }
     },
     // Bind Event Listeners
     //
@@ -37,7 +41,7 @@ var app = {
         if (this.mobile) {
             document.addEventListener('deviceready', this.onDeviceReady, false);
         } else {
-            window.addEventListener('load', this.onDeviceReady, false)
+            window.addEventListener('load', this.onDeviceReady, false);
         }
     },
     // deviceready Event Handler
@@ -88,6 +92,9 @@ var app = {
         } else {
             $(scrollwindow || "body").scrollTop(scrollToValue);
         }
+    },
+    scrollStop: function (scrollwindow) {
+        $(scrollwindow || "body").stop();
     }
 };
 app.initialize();
