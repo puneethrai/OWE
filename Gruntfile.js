@@ -60,10 +60,24 @@ module.exports = function (grunt) {
                 }
             }
         },
+        sass: { // Task
+            dist: { // Target
+                options: { // Target options
+                    style: 'compressed'
+                },
+                files: { // Dictionary of files
+                    'www/css/index.css': 'www/css/index.scss', // 'destination': 'source'
+                }
+            }
+        },
         watch: {
             tests: {
                 files: ['www/**', 'spec/**'],
                 tasks: ['travis']
+            },
+            sass: {
+                files: ['www/css/*.scss', 'www/css/scss/**'],
+                tasks: ['sass']
             }
         }
     });
@@ -71,7 +85,9 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-jasmine');
     grunt.loadNpmTasks('grunt-saucelabs');
     grunt.loadNpmTasks('grunt-contrib-connect');
+    grunt.loadNpmTasks('grunt-contrib-sass');
     // Default task(s).
+    grunt.registerTask('default', ['sass']);
     grunt.registerTask('travis', ['jasmine']);
     grunt.registerTask('test-reload', ['travis', 'watch:tests']);
     grunt.registerTask("dev", ["connect", "watch:tests"]);

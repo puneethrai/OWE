@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.friends.owe" version="1.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="WebSql">
+        <param name="wp-package" value="WebSql" />
+    </feature>
+    <name>OWE</name>
+    <description>
+        How much do you friend OWE your or OWE them ?
+    </description>
+    <author email="nsujithrai@yahoo.co.in" href="http://puneethrai.github.io/OWE">
+        Puneeth Rai
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="DisallowOverscroll" value="true" />
+</widget>
