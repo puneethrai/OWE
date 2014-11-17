@@ -1,6 +1,6 @@
 /*global Backbone,templates,$,ViewTransaction,app, DataLayer*/
 var ViewTransaction = Backbone.View.extend({
-    className: "transaction",
+    className: "transaction col-xs-12 col-sm-6 col-md-4",
     initialize: function initilization(options) {
         this.options = options;
         this.template = templates.get('transaction', 'Transaction');

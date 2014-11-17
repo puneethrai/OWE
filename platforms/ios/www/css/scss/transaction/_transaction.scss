@@ -1,0 +1,24 @@
+#Transaction {
+    .bootstrap-select {
+        padding: 0;
+    }
+    > .row:last-child {
+        @include overflow-with-ios();
+    }
+    .form-control-feedback {
+        top: 0;
+    }
+    .transaction-display {
+        margin-top: 5px; 
+    }
+    input.form-control{
+        height: 42px;
+    }
+    .debit-button,
+    .credit-button {
+        span {
+            display: block;
+            font-size: 6px;
+        }
+    }
+}

@@ -1,5 +1,5 @@
 var ViewFriend = Backbone.View.extend({
-    className: "friend",
+    className: "friend col-xs-12 col-sm-6 col-md-4",
     initialize: function initilization(options) {
         this.options = options;
         this.template = templates.get('friend', 'Friend');

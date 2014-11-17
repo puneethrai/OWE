@@ -228,4 +228,7 @@
             <HintPath>plugins\com.msopentech.websql\Community.CsharpSqlite.WinPhone.dll</HintPath>
         </Reference>
     </ItemGroup>
+    <ItemGroup>
+        <Compile Include="Plugins\org.apache.cordova.statusbar\StatusBar.cs" />
+    </ItemGroup>
 </Project>

@@ -11,6 +11,10 @@
                         {
                             "xml": "<feature name=\"WebSql\"><param name=\"wp-package\" value=\"WebSql\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"StatusBar\"><param name=\"wp-package\" value=\"StatusBar\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -19,6 +23,9 @@
     },
     "installed_plugins": {
         "com.msopentech.websql": {
+            "PACKAGE_NAME": "{a109caf0-6747-11e4-855e-abe62f04547d}"
+        },
+        "org.apache.cordova.statusbar": {
             "PACKAGE_NAME": "{a109caf0-6747-11e4-855e-abe62f04547d}"
         }
     },

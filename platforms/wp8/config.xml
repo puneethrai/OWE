@@ -13,4 +13,7 @@
     <content src="index.html" />
     <access origin="*" />
     <preference name="DisallowOverscroll" value="true" />
+    <feature name="StatusBar">
+        <param name="wp-package" value="StatusBar" />
+    </feature>
 </widget>
