@@ -1,4 +1,5 @@
-(function (jasmine, describe, beforeEach, it, expect, spyOn, Backbone, TransactionRouter, FriendCollection, templates, xit, TransactionCollection, TransactionModel, DataLayer, ViewTransactions) {
+(function ($, jasmine, describe, beforeEach, afterEach, it, expect, spyOn, Backbone, TransactionRouter, FriendCollection, templates, xit, TransactionCollection, TransactionModel, DataLayer, ViewTransactions, ViewTransaction) {
+    /*jslint unparam:true*/
     describe("Transaction", function () {
         var TR, loaded = false;
 
@@ -397,6 +398,34 @@
                 });
 
             });
+            it("should listen for user input to add new friends", function (done) {
+                var testname = "Testing new User";
+                FC.on("add", function (model) {
+                    expect(model.get("name")).toBe(testname);
+                });
+                TC.on("add", function (model) {
+                    expect(VTS.onNewFriends).toHaveBeenCalled();
+                    expect(VTS.onNewTransaction).toHaveBeenCalled();
+                    done();
+                });
+                VTS.$el.trigger("NoResult", testname);
+                VTS.$el.find(".dummyAmount").val("1234");
+                VTS.$el.find(".dummyDebt").trigger("tap");
+            });
+            it("should not add the previously not found friend to friends list if user is able to find the friend", function (done) {
+                var testname = "Testing new User";
+                TC.on("add", function (model) {
+                    setTimeout(function () {
+                        expect(VTS.onNewFriends).not.toHaveBeenCalled();
+                        expect(VTS.onNewTransaction).toHaveBeenCalled();
+                        done();
+                    }, 300);
+                });
+                VTS.$el.trigger("NoResult", testname);
+                VTS.$el.trigger("ResultFound");
+                VTS.$el.find(".dummyAmount").val("1234");
+                VTS.$el.find(".dummyDebt").trigger("tap");
+            });
         });
 
         describe("Views:transaction", function () {
@@ -422,11 +451,11 @@
             });
             it("should update the view upon render", function () {
                 expect(VT.$el).toBeInDOM();
-                expect(VT.$el.find(".panel")[0]).toHaveClass("panel-danger");
-                expect(VT.$el.find(".panel")[0]).not.toHaveClass("panel-primary");
+                expect(VT.$el.find(".transaction-container")[0]).toHaveClass("out");
+                expect(VT.$el.find(".transaction-container")[0]).not.toHaveClass("in");
                 TM.set("type", TransactionModel.prototype.TYPE.CREDIT);
-                expect(VT.$el.find(".panel")[0]).toHaveClass("panel-primary");
-                expect(VT.$el.find(".panel")[0]).not.toHaveClass("panel-danger");
+                expect(VT.$el.find(".transaction-container")[0]).toHaveClass("in");
+                expect(VT.$el.find(".transaction-container")[0]).not.toHaveClass("out");
             });
             it("should listen for user click event on close button", function () {
                 $(".dummyDelete").trigger("tap");
@@ -477,9 +506,11 @@
             });
         });
     });
-}(window.jasmine,
+}(window.jQuery,
+    window.jasmine,
     window.describe,
     window.beforeEach,
+    window.afterEach,
     window.it,
     window.expect,
     window.spyOn,
@@ -491,4 +522,5 @@
     window.TransactionCollection,
     window.TransactionModel,
     window.DataLayer,
-    window.ViewTransactions));
+    window.ViewTransactions,
+    window.ViewTransaction));

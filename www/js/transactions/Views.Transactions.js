@@ -34,6 +34,7 @@ var ViewTransactions = Backbone.View.extend({
             for (modelIndex = 0; modelIndex < self.options.friendCollection.models.length; modelIndex++) {
                 self.onNewFriends(self.options.friendCollection.models[modelIndex]);
             }
+            self.$el.find(".shrink").removeClass("shrink");
         }, 0);
         this.updateScroll();
         return this;
@@ -70,7 +71,7 @@ var ViewTransactions = Backbone.View.extend({
     },
     _onAddToCollection: function _onAddToCollection(amount, type, userid) {
         this.$el.find(".has-feedback").removeClass("has-error").find(".form-control-feedback").removeClass("glyphicon-remove");
-        var tempModel = new this.collection.model({
+        var tempModel = new this.collection.model(this.waitingForNewFriend || {
             amount: parseInt(amount, 10),
             type: type,
             userid: parseInt(userid, 10)
