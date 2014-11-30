@@ -1,4 +1,4 @@
-/*global Backbone, TransactionCollection, ViewTransactions, FR*/
+/*global Backbone, TransactionCollection, ViewTransactions, FR, $*/
 var TransactionRouter = Backbone.Router.extend({
     initialize: function initialize(argument) {
         /*jslint unparam:true*/
@@ -14,6 +14,8 @@ var TransactionRouter = Backbone.Router.extend({
         if (FR && FR.FV) {
             FR.FV.$el.addClass("hide");
         }
+        $("nav a[href=#transaction]").addClass("active");
+        $("nav a[href=#friends]").removeClass("active");
         if (!this.TV) {
             this.TV = new ViewTransactions({
                 parentDiv: "Dynamic",

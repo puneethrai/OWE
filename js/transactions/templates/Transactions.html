@@ -1,20 +1,36 @@
-<div class="container">
-    <p> You OWE them <span class="dummyYCount"><span></p>
-    <p> They OWE you <span class="dummyTCount"><span></p>
+
+    <div class="row">
+        <div class=" col-xs-12 shrink">
+            <div class="text-center bg-danger transaction-button left">
+                <i class="glyphicon glyphicon-log-out"></i>
+            </div>
+            <h4 class="dummyTCount text-center">0</h4>
+            <p>Debit</p>
+        </div>
+        <div class=" col-xs-12 shrink">
+            <div class="text-center bg-primary transaction-button right">
+                <i class="glyphicon glyphicon-log-in"></i>
+            </div>
+            <h4 class="dummyYCount text-center">0</h4>
+            <p>Credit</p>
+        </div>
+    </div>
     <div class="row">
         <div class="col-xs-12">
             <div class="input-group">
-                <input type="tel" class="form-control dummyAmount" placeholder="amount" required="" style="height:42px">
+                <div class="form-group has-feedback">
+                    <input type="tel" class="form-control dummyAmount input-lg" placeholder="amount">
+                    <span class="glyphicon form-control-feedback"></span>
+                </div>
                 <span class="input-group-btn">
-                    <button class="btn btn-default dummyDebt" type="button">
+                    <button class="btn btn-default dummyDebt debit-button" type="button">
                         <i class="glyphicon glyphicon-plus"></i>
-                        <span style="display: block;font-size: 6px">Debt</span>
+                        <span>Debt</span>
                     </button>
-                    <button class="btn btn-default dummyCredit" type="button">
+                    <button class="btn btn-default dummyCredit credit-button" type="button">
                         <i class="glyphicon glyphicon-minus"></i>
-                        <span style="display: block;font-size: 6px">Credit</span>
+                        <span>Credit</span>
                     </button>
-
                 </span>
             </div><!-- /input-group -->
         </div><!-- /.col-xs-12 -->
@@ -22,5 +38,4 @@
             <select class="col-xs-12 dummyFriends show-tick" data-live-search="true" data-dropup-auto="false"></select>
         </div>
     </div><!-- /.row -->
-</div>
-<div class="dummyTransaction container"></div>
+    <div class="dummyTransaction row transaction-display"></div>

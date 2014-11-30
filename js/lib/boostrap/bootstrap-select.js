@@ -857,13 +857,17 @@
             that.setSelected(that.$menu.find('li.active').data('originalIndex'), false);
           } else if (!!no_results.parent().length) {
             no_results.remove();
-            that.$button.html(htmlEscape(that.$element.val()));
+            that.$button.attr('title',htmlEscape(that.$element.text()));
+            that.$newElement.find('.filter-option').html(htmlEscape(that.$element.text()));
             that.$element.trigger("ResultFound", that.$searchbox.val());
           }
 
         } else {
           that.$lis.not('.is-hidden').removeClass('hide');
           if (!!no_results.parent().length) no_results.remove();
+          that.$button.attr('title',htmlEscape(that.$element.text())||that.options.noneSelectedText);
+          that.$newElement.find('.filter-option').html(htmlEscape(that.$element.text())||that.options.noneSelectedText);
+          that.$element.trigger("ResultFound", that.$searchbox.val());
         }
 
         that.$menu.find('li.active').removeClass('active');

@@ -50,26 +50,36 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function () {
         //load the transcation template
-        DataLayer.initialize();
-        templates.load({
-            names: ['Transaction', 'Transactions'],
-            modulePath: 'js/transactions',
-            templatePath: 'templates',
-            moduleName: 'transaction'
-        }, function () {
-            window.TR = new TransactionRouter();
-            app.startHistory("1");
-        });
-        //load the friend template
-        templates.load({
-            names: ['Friend', 'Friends'],
-            modulePath: 'js/friends',
-            templatePath: 'templates',
-            moduleName: 'friend'
-        }, function () {
-            window.FR = new FriendRouter();
-            app.startHistory("2");
-        });
+        try {
+            DataLayer.initialize();
+            templates.load({
+                names: ['Transaction', 'Transactions'],
+                modulePath: 'js/transactions',
+                templatePath: 'templates',
+                moduleName: 'transaction'
+            }, function () {
+                window.TR = new TransactionRouter();
+                app.startHistory("1");
+            });
+            //load the friend template
+            templates.load({
+                names: ['Friend', 'Friends'],
+                modulePath: 'js/friends',
+                templatePath: 'templates',
+                moduleName: 'friend'
+            }, function () {
+                window.FR = new FriendRouter();
+                app.startHistory("2");
+            });
+        } catch (e) {
+            var interval = setInterval(function () {
+                if (openDatabase) {
+                    clearInterval(interval);
+                    app.onDeviceReady();
+                }
+
+            }, 1000);
+        }
     },
     startHistory: function (id) {
         app.accessList = app.accessList.replace(id, "");

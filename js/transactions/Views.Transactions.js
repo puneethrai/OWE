@@ -1,6 +1,7 @@
-/*global Backbone,templates,$,ViewTransaction,app*/
+/*global Backbone,templates,$,ViewTransaction,app,_*/
 var ViewTransactions = Backbone.View.extend({
     id: "Transaction",
+    className: "container",
     initialize: function initialize(options) {
         this.options = options;
         this.template = templates.get('transaction', 'Transactions');
@@ -16,6 +17,9 @@ var ViewTransactions = Backbone.View.extend({
         this.yAmount = 0;
         this.newFriend = "";
         this.waitingForNewFriend = null;
+        _.bindAll(this, "updateScroll");
+        $(window).on("resize", this.updateScroll);
+        $(window).on("orientationchange", this.updateScroll);
     },
     render: function render() {
         var self = this,
@@ -30,7 +34,9 @@ var ViewTransactions = Backbone.View.extend({
             for (modelIndex = 0; modelIndex < self.options.friendCollection.models.length; modelIndex++) {
                 self.onNewFriends(self.options.friendCollection.models[modelIndex]);
             }
+            self.$el.find(".shrink").removeClass("shrink");
         }, 0);
+        this.updateScroll();
         return this;
     },
     events: {
@@ -45,7 +51,7 @@ var ViewTransactions = Backbone.View.extend({
         var transactionView = this._createTransactionView(model);
         if (model.isNew()) {
             model.save();
-            app.scrollDown(transactionView.$el.offset().top - this.$el.find(".dummyTransaction").offset().top + this.$el.find(".dummyTransaction").scrollTop());
+            app.scrollDown(transactionView.$el.offset().top - this.$el.find(".dummyTransaction").offset().top + this.$el.find(".dummyTransaction").scrollTop(), this.$el.find(".dummyTransaction"));
         }
 
     },
@@ -64,32 +70,32 @@ var ViewTransactions = Backbone.View.extend({
         this._onAddToCollection(this.$el.find(".dummyAmount").val(), "+", this.$el.find(".dummyFriends").val());
     },
     _onAddToCollection: function _onAddToCollection(amount, type, userid) {
-        var tempModel = null;
-        app.scrollStop();
-        if (this.newFriend) {
-            this.waitingForNewFriend = {
-                amount: parseInt(amount, 10),
-                type: type
-            };
-            tempModel = new this.collection.model(this.waitingForNewFriend);
-            if (tempModel.isValid()) {
+        this.$el.find(".has-feedback").removeClass("has-error").find(".form-control-feedback").removeClass("glyphicon-remove");
+        var tempModel = new this.collection.model(this.waitingForNewFriend || {
+            amount: parseInt(amount, 10),
+            type: type,
+            userid: parseInt(userid, 10)
+        });
+        if (tempModel.isValid()) {
+            if (this.newFriend) {
+                this.waitingForNewFriend = {
+                    amount: parseInt(amount, 10),
+                    type: type
+                };
+
                 this.options.friendCollection.create({
                     name: this.newFriend
                 }, {
                     wait: true
                 });
+                this.newFriend = "";
             } else {
-                this.waitingForNewFriend = null;
+                this.collection.add(this.waitingForNewFriend || tempModel, {
+                    validate: true
+                });
             }
-            this.newFriend = "";
         } else {
-            this.collection.add(this.waitingForNewFriend || {
-                amount: parseInt(amount, 10),
-                type: type,
-                userid: parseInt(userid, 10)
-            }, {
-                validate: true
-            });
+            this.$el.find(".has-feedback").addClass("has-error").find(".form-control-feedback").addClass("glyphicon-remove");
         }
     },
     onDeleteTransaction: function onDeleteTransaction(model) {
@@ -137,5 +143,18 @@ var ViewTransactions = Backbone.View.extend({
             this.$el.find(".dummyYCount").html(this.yAmount);
 
         }
+    },
+    updateScroll: function () {
+        var height = window.innerHeight -
+            parseInt($("#Dynamic").css("padding-top"), 10) -
+            this.$el.find(".row:first-child").height() -
+            this.$el.find(".row:nth-child(2)").height() -
+            parseInt(this.$el.find(".dummyTransaction").css("margin-top"), 10);
+        this.$el.find(".dummyTransaction").css("max-height", height);
+    },
+    remove: function () {
+        $(window).off("resize", this.updateCSS);
+        $(window).off("orientationchange", this.updateCSS);
+        Backbone.View.prototype.remove.apply(this, arguments);
     }
 });

@@ -1,5 +1,7 @@
+/*global Backbone,templates,$,ViewFriend,app,_*/
 var ViewFriends = Backbone.View.extend({
     id: "Friends",
+    className: "container",
     initialize: function initialize(options) {
         this.options = options;
         this.template = templates.get('friend', 'Friends');
@@ -7,6 +9,9 @@ var ViewFriends = Backbone.View.extend({
             "add": this.onNewFriend,
             "remove": this.onDeleteFriend
         }, this);
+        _.bindAll(this, "updateScroll");
+        $(window).on("resize", this.updateScroll);
+        $(window).on("orientationchange", this.updateScroll);
     },
     render: function render() {
         var modelIndex = 0;
@@ -17,6 +22,7 @@ var ViewFriends = Backbone.View.extend({
         for (modelIndex = 0; modelIndex < this.collection.models.length; modelIndex++) {
             this._createFriendsView(this.collection.models[modelIndex]);
         }
+        this.updateScroll();
         return this;
     },
     events: {
@@ -56,5 +62,18 @@ var ViewFriends = Backbone.View.extend({
         }).render();
         this.$el.find(".dummyFriendList").append(FriendView.el);
         app.scrollDown(FriendView.$el.offset().top - this.$el.find(".dummyFriendList").offset().top + this.$el.find(".dummyFriendList").scrollTop());
+    },
+    updateScroll: function () {
+        var height = window.innerHeight -
+            parseInt($("#Dynamic").css("padding-top"), 10) -
+            this.$el.find(".row:first-child").height() -
+            this.$el.find(".row:nth-child(2)").height() -
+            parseInt(this.$el.find(".dummyFriendList").css("margin-top"), 10);
+        this.$el.find(".dummyFriendList").css("max-height", height);
+    },
+    remove: function () {
+        $(window).off("resize", this.updateCSS);
+        $(window).off("orientationchange", this.updateCSS);
+        Backbone.View.prototype.remove.apply(this, arguments);
     }
 });
