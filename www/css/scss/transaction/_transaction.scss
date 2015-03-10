@@ -80,7 +80,13 @@
     }
     .transaction {
         margin-bottom: 5px;
+        &.delete {
+            @include transition(width 2s);
+            float: right;
+            width: 140px;
+        }
         .transaction-container {
+            box-shadow: 0px 0px 5px #3d3d3d;
             &.in {
                 border: 1px solid $brand-primary;
                 .transaction-action {
@@ -99,7 +105,7 @@
                     border-bottom: 1px solid $state-danger-bg;
                 }
             }
-            border-radius: 25px;
+            border-radius: 15px;
             height: 82px;
             .transaction-type,
             .transaction-action {
@@ -109,10 +115,11 @@
                 text-align: center;
             }
             .transaction-type {
-                border-radius: 25px 0px 0px 25px;
+                border-radius: 15px 0px 0px 15px;
+                width: 15px;
             }
             .transaction-action {
-                border-radius: 0px 25px 25px 0px;
+                border-radius: 0px 15px 15px 0px;
                 &:hover, &:active {
                     background-color: #3D3D3D;
                     color: #fcfcfc;
@@ -120,8 +127,8 @@
             }
             hgroup {
                 position: relative;
-                top: -80px;
-                margin: 0 60px 0 60px;
+                top: -85px;
+                margin: 0 60px 0 30px;
                 h3 {
                     margin: 0;
                     line-height: 40px;

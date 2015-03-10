@@ -30,7 +30,7 @@ var ViewTransaction = Backbone.View.extend({
         return this;
     },
     events: {
-        "tap .dummyDelete": "onRemoveTransaction",
+        "tap .dummyDelete": "onRemoveTransaction"
     },
     onRemoveTransaction: function onRemoveTransaction() {
         this.model.destroy();
