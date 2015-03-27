@@ -72,7 +72,7 @@ var ViewTransactions = Backbone.View.extend({
     _onAddToCollection: function _onAddToCollection(amount, type, userid) {
         this.$el.find(".has-feedback").removeClass("has-error").find(".form-control-feedback").removeClass("glyphicon-remove");
         var tempModel = new this.collection.model(this.waitingForNewFriend || {
-            amount: parseInt(amount, 10),
+            amount: Number(amount),
             type: type,
             userid: parseInt(userid, 10)
         });

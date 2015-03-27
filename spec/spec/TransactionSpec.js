@@ -426,6 +426,18 @@
                 VTS.$el.find(".dummyAmount").val("1234");
                 VTS.$el.find(".dummyDebt").trigger("tap");
             });
+            it("should able to accept floating point number", function (done) {
+                var number = 1234.1234;
+                TC.on("add", function (model) {
+                    setTimeout(function () {
+                        expect(model.get("amount")).toBe(number);
+                        done();
+                    }, 300);
+                });
+                VTS.$el.find(".dummyAmount").val(number);
+                VTS.$el.find(".dummyDebt").trigger("tap");
+
+            });
         });
 
         describe("Views:transaction", function () {
