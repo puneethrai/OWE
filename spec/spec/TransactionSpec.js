@@ -1,3 +1,4 @@
+/*jslint browser:true*/
 (function ($, jasmine, describe, beforeEach, afterEach, it, expect, spyOn, Backbone, TransactionRouter, FriendCollection, templates, xit, TransactionCollection, TransactionModel, DataLayer, ViewTransactions, ViewTransaction) {
     /*jslint unparam:true*/
     describe("Transaction", function () {
@@ -192,6 +193,11 @@
             });
             it("should not allow invalid amount to be passed", function () {
                 TM.set("amount", "123");
+                expect(TM.isValid()).not.toBeTruthy();
+                expect(TM.validationError).toEqual(-1);
+            });
+            it("should not allow empty/zero amount to be passed", function () {
+                TM.set("amount", 0);
                 expect(TM.isValid()).not.toBeTruthy();
                 expect(TM.validationError).toEqual(-1);
             });
@@ -436,6 +442,39 @@
                 });
                 VTS.$el.find(".dummyAmount").val(number);
                 VTS.$el.find(".dummyDebt").trigger("tap");
+
+            });
+            it("should able to add/substract number and display effectivly", function (done) {
+                var float4Number = 1234.1234,
+                    float3Number = 1234.123,
+                    intNumber = 1234,
+                    number = [intNumber, intNumber, float4Number, float3Number, float3Number, float3Number],
+                    modelIndex,
+                    numberIndex;
+                TC.on("add", function (model) {
+                    if (TC.length === (number.length * 2)) {
+                        expect(VTS.$el.find(".dummyTCount").html()).toBe("7404.492399999999");
+                        expect(VTS.$el.find(".dummyYCount").html()).toBe("7404.492399999999");
+                        for (modelIndex = TC.length - 1; modelIndex >= 0; modelIndex--) {
+                            TC.models[modelIndex].destroy();
+                        }
+                    }
+                });
+                TC.on("remove", function (model) {
+                    if (TC.length === 0) {
+                        expect(VTS.$el.find(".dummyTCount").html()).toBe("0");
+                        expect(VTS.$el.find(".dummyYCount").html()).toBe("0");
+                        done();
+                    }
+                });
+                for (numberIndex = 0; numberIndex < number.length; numberIndex++) {
+                    VTS.$el.find(".dummyAmount").val(number[numberIndex]);
+                    VTS.$el.find(".dummyDebt").trigger("tap");
+                }
+                for (numberIndex = 0; numberIndex < number.length; numberIndex++) {
+                    VTS.$el.find(".dummyAmount").val(number[numberIndex]);
+                    VTS.$el.find(".dummyCredit").trigger("tap");
+                }
 
             });
         });
