@@ -201,6 +201,15 @@
                 expect(TM.isValid()).not.toBeTruthy();
                 expect(TM.validationError).toEqual(-1);
             });
+            it("should not allow invalid type to be passed", function () {
+                TM.set("amount", 123);
+                //not type set then default will be used
+                expect(TM.isValid()).toBeTruthy();
+                expect(TM.get("type")).toEqual(TM.defaults().type);
+                TM.set("type", "123");
+                expect(TM.isValid()).not.toBeTruthy();
+                expect(TM.validationError).toEqual(-2);
+            });
             it("should able to delete and notify the same", function (done) {
                 var testData = {
                     callBack: function () {
@@ -230,6 +239,10 @@
                 };
                 spyOn(testData, "callBack").and.callThrough();
                 TM.on("destroy", testData.callBack);
+                TM.set({
+                    amount: 1234,
+                    type: TM.TYPE.CREDIT
+                });
                 TM.save();
                 DataLayer.addTransaction = _DataLayer;
             });
@@ -266,6 +279,10 @@
                     "change:id": testData.callBack,
                     "destroy": testData.destroy
                 }, testData);
+                TM.set({
+                    amount: 1234,
+                    type: TM.TYPE.CREDIT
+                });
                 TM.save();
             });
             it("should able to delete its entry from persistent layer if the model is destroy", function (done) {
@@ -301,6 +318,10 @@
                 };
                 spyOn(testData, "callBack").and.callThrough();
                 TM.on("change:id", testData.callBack, testData);
+                TM.set({
+                    amount: 1234,
+                    type: TM.TYPE.CREDIT
+                });
                 TM.save();
             });
 
